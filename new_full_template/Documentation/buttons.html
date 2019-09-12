@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Super Admin 2.0 Extended Dark</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <body>
+    <header id="header">
+    <div class="header__logo">Super Admin 2.0</div>
+
+    <div class="header__links">
+        <a href="">Demo</a>
+        <a href="">Purchase</a>
+    </div>
+</header>
+
+    <main id="main">
+        <aside id="sidebar" data-spy="affix" data-offset-top="72">
+    <ul class="sidebar__links">
+        <li>
+            <span class="sidebar__title">Getting Started</span>
+            <ul>
+                <li><a href="index.html#getting-started">What's Included</a></li>
+                <li><a href="index.html#css-name">CSS Naming Conventions</a></li>
+                <li><a href="index.html#compiling-css-js">Compiling CSS and JavaScript</a></li>
+                <li><a href="index.html#using-scss">Using SCSS</a></li>
+                <li><a href="index.html#font">Font</a></li>
+                <li><a href="index.html#third-party-vendors">Third Party Vendors</a></li>
+                <li><a href="index.html#basic-template">Basic Template</a></li>
+                <li><a href="index.html#themes">Themes</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="layout-variants.html">Layout Variants</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="typography.html">Typography</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="widgets.html">Widgets</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Tables</span>
+            <ul>
+                <li><a href="tables.html">Normal Tables</a></li>
+                <li><a href="data-tables.html">Data Tables</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Form</span>
+            <ul>
+                <li><a href="form-elements.html">Form Groups & Elements</a></li>
+                <li><a href="form-components.html">Form Components</a></li>
+                <li><a href="form-validation.html">Form Validation</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">User Interface</span>
+            <ul>
+                <li><a href="colors.html">Colors</a></li>
+                <li><a href="animations.html">CSS Animations</a></li>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="icons.html">Icons</a></li>
+                <li><a href="listview.html">Listviews</a></li>
+                <li><a href="toolbar.html">Toolbars</a></li>
+                <li><a href="card.html">Cards</a></li>
+                <li><a href="alert.html">Alerts</a></li>
+                <li><a href="badges.html">Badges</a></li>
+                <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                <li><a href="jumbotron.html">Jumbotron</a></li>
+                <li><a href="navs.html">Navs</a></li>
+                <li><a href="pagination.html">Pagination</a></li>
+                <li><a href="progress.html">Progress</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Javascript Components</span>
+            <ul>
+                <li><a href="carousel.html">Carousel</a></li>
+                <li><a href="collapse.html">Collapse</a></li>
+                <li><a href="dropdown.html">Dropdowns</a></li>
+                <li><a href="modal.html">Modals</a></li>
+                <li><a href="popovers.html">Popovers</a></li>
+                <li><a href="tabs.html">Tabs</a></li>
+                <li><a href="tooltips.html">Tooltips</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="custom-alerts.html">Alerts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Charts</span>
+            <ul>
+                <li><a href="flot-charts.html">Flot Charts</a></li>
+                <li><a href="peity-charts.html">Peitty Charts</a></li>
+                <li><a href="easypie.html">EasyPie Charts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="photos.html">Photo Gallery</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="calendar.html">Calendar</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Site components</span>
+
+            <ul>
+                <li><a href="page-headers.html">Page Headers</a></li>
+                <li><a href="actions-icons.html">Action Icons</a></li>
+                <li><a href="dashboard-columns.html">Dashboard Columns (Masonry like)</a></li>
+            </ul>
+        </li>
+    </ul>
+</aside>
+
+            <section id="content">
+                <div class="content__wrapper">
+                    <div class="content__title">
+                        <h2>Buttons</h2>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Basic examples</h2>
+                        </div>
+
+                        <p>Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.</p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/color.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-primary&#x22;&#x3E;Primary&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-secondary&#x22;&#x3E;Secondary&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-success&#x22;&#x3E;Success&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-danger&#x22;&#x3E;Danger&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-warning&#x22;&#x3E;Warning&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-info&#x22;&#x3E;Info&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Light&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-dark&#x22;&#x3E;Dark&#x3C;/button&#x3E;
+
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-link&#x22;&#x3E;Link&#x3C;/button&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Button tags</h2>
+                        </div>
+
+                        <p>The <code>.btn</code> classes are designed to be used with the <code>&#x3C;button&#x3E;</code> element. However, you can also use these classes on <code>&#x3C;a&#x3E;</code> or &#x3C;input&#x3E; elements (though some browsers may apply a slightly different rendering).</p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/tags.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;a class=&#x22;btn btn-primary&#x22; href=&#x22;#&#x22; role=&#x22;button&#x22;&#x3E;Link&#x3C;/a&#x3E;
+&#x3C;button class=&#x22;btn btn-primary&#x22; type=&#x22;submit&#x22;&#x3E;Button&#x3C;/button&#x3E;
+&#x3C;input class=&#x22;btn btn-primary&#x22; type=&#x22;button&#x22; value=&#x22;Input&#x22;&#x3E;
+&#x3C;input class=&#x22;btn btn-primary&#x22; type=&#x22;submit&#x22; value=&#x22;Submit&#x22;&#x3E;
+&#x3C;input class=&#x22;btn btn-primary&#x22; type=&#x22;reset&#x22; value=&#x22;Reset&#x22;&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Outline buttons</h2>
+                        </div>
+
+                        <p>In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the <code>.btn-outline-*</code> ones to remove all background images and colors on any button.</p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/outline.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-outline-primary&#x22;&#x3E;Primary&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-outline-secondary&#x22;&#x3E;Secondary&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-outline-success&#x22;&#x3E;Success&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-outline-danger&#x22;&#x3E;Danger&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-outline-warning&#x22;&#x3E;Warning&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-outline-info&#x22;&#x3E;Info&#x3C;/button&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Sizes</h2>
+                        </div>
+
+                        <p>Fancy larger or smaller buttons? Add <code>.btn-lg</code> or <code>.btn-sm</code> for additional sizes.</p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/size.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light btn-lg&#x22;&#x3E;Large button&#x3C;/button&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light btn-sm&#x22;&#x3E;Small button&#x3C;/button&#x3E;</code></pre>
+                        </div>
+
+                        <h3 class="card__sub">Block level button</h3>
+                        <p>Create block level buttons—those that span the full width of a parent by adding <code>.btn-block</code>.</p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/block.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light btn-block&#x22;&#x3E;Block level button&#x3C;/button&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Active and disabled state</h2>
+                        </div>
+
+                        <h3 class="card__sub">Active state</h3>
+                        <p>Buttons will appear pressed (with a darker background, darker border, and inset shadow) when active.</p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/active.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;a href=&#x22;#&#x22; class=&#x22;btn btn-primary btn-lg active&#x22; role=&#x22;button&#x22; aria-pressed=&#x22;true&#x22;&#x3E;Primary link&#x3C;/a&#x3E;</code></pre>
+                        </div>
+
+                        <h3 class="card__sub">Disabled state</h3>
+                        <p>Make buttons look inactive by adding the <code>disabled</code> boolean attribute to any <code>&#x3C;button&#x3E;</code> element.</p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/disable.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-lg btn-primary&#x22; disabled&#x3E;Primary button&#x3C;/button&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Button Icons</h2>
+                        </div>
+
+                        <p>You can refer the Icons page for the complete list of Material Design font icons.</p>
+
+                        <h4 class="card__sub">Icon + text buttons</h4>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/text-icon.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;button class=&#x22;btn btn-light btn--icon-text&#x22;&#x3E;&#x3C;i class=&#x22;zmdi zmdi-home&#x22;&#x3E;&#x3C;/i&#x3E; Home&#x3C;/button&#x3E;</code></pre>
+                        </div>
+
+                        <h4 class="card__sub">Icon only rounded buttons</h4>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/icon.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;button class=&#x22;btn btn-light btn--icon&#x22;&#x3E;&#x3C;i class=&#x22;zmdi zmdi-home&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/button&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Button Groups</h2>
+                        </div>
+
+                        <p>Group a series of buttons together on a single line with the button group.</p>
+
+                        <h4 class="card__sub">Basic example</h4>
+                        <p>Wrap a series of buttons with <code>.btn</code> in <code>.btn-group</code>. </p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/button-group.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;div class=&#x22;btn-group&#x22;&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Left&#x3C;/button&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Middle&#x3C;/button&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Right&#x3C;/button&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                        </div>
+
+                        <h4 class="card__sub">Button Toolbars</h4>
+                        <p>Combine sets of <code>.btn-group.</code> into a <code>.btn-toolbar</code> for more complex components. </p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/button-group-toolbar.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;div class=&#x22;btn-toolbar&#x22;&#x3E;
+    &#x3C;div class=&#x22;btn-group&#x22;&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;1&#x3C;/button&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;2&#x3C;/button&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;3&#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;btn-group&#x22;&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;4&#x3C;/button&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;5&#x3C;/button&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;6&#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;btn-group&#x22;&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;7&#x3C;/button&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;8&#x3C;/button&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;9&#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                        </div>
+
+                        <h4 class="card__sub">Button Group Sizing</h4>
+                        <p>Instead of applying button sizing classes to every button in a group, just add <code>.btn-group-*</code> to each <code>.btn-group</code>, including when nesting multiple groups. </p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/button-group-size.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;!-- Large --&#x3E;
+&#x3C;div class=&#x22;btn-group btn-group-lg&#x22;&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Left&#x3C;/button&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Middle&#x3C;/button&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Right&#x3C;/button&#x3E;
+&#x3C;/div&#x3E;
+
+&#x3C;!-- Default --&#x3E;
+&#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Left&#x3C;/button&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Middle&#x3C;/button&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Right&#x3C;/button&#x3E;
+
+
+&#x3C;!-- Small --&#x3E;
+&#x3C;div class=&#x22;btn-group btn-group-sm&#x22;&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Left&#x3C;/button&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Middle&#x3C;/button&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;Right&#x3C;/button&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                        </div>
+
+                        <h4 class="card__sub">Nesting</h4>
+                        <p>Place a <code>.btn-group</code> within another <code>.btn-group</code> when you want dropdown menus mixed with a series of buttons.</p>
+
+                        <div class="card__demo">
+                            <img src="img/buttons/nesting.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;div class=&#x22;btn-group&#x22;&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;1&#x3C;/button&#x3E;
+    &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light&#x22;&#x3E;2&#x3C;/button&#x3E;
+
+    &#x3C;div class=&#x22;btn-group&#x22;&#x3E;
+        &#x3C;button type=&#x22;button&#x22; class=&#x22;btn btn-light dropdown-toggle&#x22; data-toggle=&#x22;dropdown&#x22;&#x3E;Dropdown&#x3C;/button&#x3E;
+        &#x3C;ul class=&#x22;dropdown-menu&#x22;&#x3E;
+            &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Dropdown link&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Dropdown link&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+        &#x3C;/ul&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <h3 class="card__sub">Requirements:</h3>
+
+                    <ul>
+                        <li><code>/scss/inc/bootstrap-overrides/_buttons.scss</code></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/prism.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lightgallery.min.js"></script>
+<script src="js/functions.js"></script>
+    </body>
+</html>

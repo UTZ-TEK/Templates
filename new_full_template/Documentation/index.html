@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Super Admin 2.0 Extended Dark</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <body>
+        <header id="header">
+    <div class="header__logo">Super Admin 2.0</div>
+
+    <div class="header__links">
+        <a href="">Demo</a>
+        <a href="">Purchase</a>
+    </div>
+</header>
+
+        <main id="main">
+            <aside id="sidebar" data-spy="affix" data-offset-top="72">
+    <ul class="sidebar__links">
+        <li>
+            <span class="sidebar__title">Getting Started</span>
+            <ul>
+                <li><a href="index.html#getting-started">What's Included</a></li>
+                <li><a href="index.html#css-name">CSS Naming Conventions</a></li>
+                <li><a href="index.html#compiling-css-js">Compiling CSS and JavaScript</a></li>
+                <li><a href="index.html#using-scss">Using SCSS</a></li>
+                <li><a href="index.html#font">Font</a></li>
+                <li><a href="index.html#third-party-vendors">Third Party Vendors</a></li>
+                <li><a href="index.html#basic-template">Basic Template</a></li>
+                <li><a href="index.html#themes">Themes</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="layout-variants.html">Layout Variants</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="typography.html">Typography</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="widgets.html">Widgets</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Tables</span>
+            <ul>
+                <li><a href="tables.html">Normal Tables</a></li>
+                <li><a href="data-tables.html">Data Tables</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Form</span>
+            <ul>
+                <li><a href="form-elements.html">Form Groups & Elements</a></li>
+                <li><a href="form-components.html">Form Components</a></li>
+                <li><a href="form-validation.html">Form Validation</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">User Interface</span>
+            <ul>
+                <li><a href="colors.html">Colors</a></li>
+                <li><a href="animations.html">CSS Animations</a></li>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="icons.html">Icons</a></li>
+                <li><a href="listview.html">Listviews</a></li>
+                <li><a href="toolbar.html">Toolbars</a></li>
+                <li><a href="card.html">Cards</a></li>
+                <li><a href="alert.html">Alerts</a></li>
+                <li><a href="badges.html">Badges</a></li>
+                <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                <li><a href="jumbotron.html">Jumbotron</a></li>
+                <li><a href="navs.html">Navs</a></li>
+                <li><a href="pagination.html">Pagination</a></li>
+                <li><a href="progress.html">Progress</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Javascript Components</span>
+            <ul>
+                <li><a href="carousel.html">Carousel</a></li>
+                <li><a href="collapse.html">Collapse</a></li>
+                <li><a href="dropdown.html">Dropdowns</a></li>
+                <li><a href="modal.html">Modals</a></li>
+                <li><a href="popovers.html">Popovers</a></li>
+                <li><a href="tabs.html">Tabs</a></li>
+                <li><a href="tooltips.html">Tooltips</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="custom-alerts.html">Alerts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Charts</span>
+            <ul>
+                <li><a href="flot-charts.html">Flot Charts</a></li>
+                <li><a href="peity-charts.html">Peitty Charts</a></li>
+                <li><a href="easypie.html">EasyPie Charts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="photos.html">Photo Gallery</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="calendar.html">Calendar</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Site components</span>
+
+            <ul>
+                <li><a href="page-headers.html">Page Headers</a></li>
+                <li><a href="actions-icons.html">Action Icons</a></li>
+                <li><a href="dashboard-columns.html">Dashboard Columns (Masonry like)</a></li>
+            </ul>
+        </li>
+    </ul>
+</aside>
+
+            <section id="content">
+                <div class="content__wrapper">
+                    <div class="content__title">
+                        <h2>Getting Started</h2>
+                    </div>
+
+                    <div class="card" id="getting-started">
+                        <div class="card__title">
+                            <h2>What's Included</h2>
+                        </div>
+
+                        <p>The Super Admin 2.0 source code download includes the precompiled CSS, JavaScript, and font assets, along with
+                            source SCSS, JavaScript, and documentation. More specifically, it includes the following and
+                            more:</p>
+
+                        <div class="card__demo card__demo--light">
+                            <pre><code class="language-non">documentation/
+template/
+    ├── css/
+    ├── demo/
+    │     ├── css/
+    │     ├── img/
+    │     └── js/
+    ├── fonts/
+    ├── img/
+    ├── js/
+    ├── scss/
+    ├── vendors/
+    │     ├── bower_components/
+    │     └── ...
+    ├── gruntfile.js
+    ├── package.json
+    ├── index.html
+    └── ...</code></pre>
+                        </div>
+
+                        <br>
+
+                        <p>The scss/, js/, and fonts/ are the source code for our CSS, JS, and icon fonts (respectively).</p>
+
+                        <h4 class="card__sub">Demo files</h4>
+                        <p>Files inside the <code>demo/</code> folder are used only for demo purposes. Removing any demo files would not cause any issues in the functionality of the template. Some of the source codes of JS demo such as charts are kept inside the demo directory. You can refer those codes samples to create instances of it if requirred.</p>
+                    </div>
+
+                    <div class="card" id="css-name">
+                        <div class="card__title">
+                            <h2>CSS Naming Conventions</h2>
+                        </div>
+
+                        <p>Super Admin 2.0 follows BEM naming conventions for all of it's custom CSS Class naming. BEM stands for Block, Element, Modifier and it's a popular methodology in HTML and CSS for naming convention. </p>
+                        <p>The BEM approach ensures that everyone who participates in the development of a website works with a single codebase and speaks the same language. Using proper naming will prepare you for the changes in design of the website.</p>
+
+                        <p>BEM example:</p>
+                        <div class="card__demo card__demo--light">
+                            <pre><code class="language-html">&#x3C;form class=&#x22;form form--simple&#x22;&#x3E;
+    &#x3C;div class=&#x22;form__group&#x22;&#x3E;
+        &#x3C;label class=&#x22;form__label&#x22;&#x3E;Label&#x3C;/label&#x3E;
+        &#x3C;input type=&#x22;text&#x22; class=&#x22;form__field form__field--block&#x22;&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;button class=&#x22;button button--red&#x22;&#x3E;Submit&#x3C;/button&#x3E;
+&#x3C;/form&#x3E;</code></pre>
+                        </div>
+
+                        <br>
+
+                        <p>To learn more about BEM naming convention, go to <a target="_blank" href="http://getbem.com/naming/">http://getbem.com/naming/</a></p>
+
+                    </div>
+
+                    <div class="card" id="compiling-css-js">
+                        <div class="card__title">
+                            <h2>Compiling CSS and JavaScript</h2>
+                        </div>
+
+                        <p>Super Admin 2.0 uses GruntJs for it's build system. GruntJs is a task-based command line build tool for
+                            JavaScript projects ans it helps making most of our manual tasks to automate. In Super Admin 2.0 we use
+                            GruntJs for:</p>
+
+                        <ol>
+                            <li>Compiling SCSS to CSS.</li>
+                            <li>Include HTML partial files in production mode.</li>
+                            <li>Minification of CSS and JS files.</li>
+                            <li>Concating JS files.</li>
+                            <li>Cleaning Temp files.</li>
+                            <li>Copy/Move files and folders.</li>
+                            <li>Automatically adding vendor prefixes for some CSS.</li>
+                            <li>Watch project file changes (dev).</li>
+                            <li>Create distribute version from production mode.</li>
+                        </ol>
+
+                        <p>All the above tasks are added in gruntfile.js which is available in the main project folder. <code>gruntfile</code>
+                            just creates a basic grunt.js that you can fill in with tasks.</p>
+
+                        <h4 class="card__sub">Installing Grunt</h4>
+
+                        <p>To install Grunt, you must first <a href="https://nodejs.org/download/">download and install
+                            node.js</a> (which includes npm). npm stands for <a href="https://www.npmjs.com/">node packaged
+                            modules</a> and is a way to manage development dependencies through node.js.</p>
+                        <p>Then, from the command line:</p>
+                        <ol>
+                            <li>
+                                Install <code>grunt-cli</code> globally with:
+                                <div class="card__demo card__demo--light" style="margin-top: 10px"><pre><code class="language-bash">npm install -g grunt-cli</code></pre></div>
+                            </li>
+                            <li>Navigate to the root project directory, then run <code>npm install</code>. npm
+                                will look at the <a href="https://github.com/twbs/bootstrap/blob/master/package.json"><code>package.json</code></a>
+                                file and automatically install the necessary local dependencies listed there.
+                            </li>
+                        </ol>
+                        <p>When completed, you'll be able to run various Grunt commands provided from the command line.</p>
+
+                        <h4 class="card__sub">Before you make any changes...</h4>
+
+                        <p>Before you make any changes in less or js files, in your command line, make sure to run: </p>
+                        <div class="card__demo card__demo--light" style="margin-top: 10px"><pre><code class="language-bash">grunt watch</code></pre></div>
+
+                        <br>
+
+                        <p>Task <code>grunt watch</code> is a file watcher which will execute certain tasks when any given file
+                            changes. All less and js files should be watched in order to make changes in the output files (css
+                            and js).</p>
+
+                        <p>To check the official documentation of GruntJs, go to <a target="" href="http://gruntjs.com/">http://gruntjs.com</a></p>
+                    </div>
+
+                    <div class="card" id="using-scss">
+                        <div class="card__title">
+                            <h2>Using SCSS</h2>
+                        </div>
+
+                        <p>Super Admin 2.0's CSS is built on SCSS, a preprocessor with additional functionality like variables, mixins, and functions for compiling CSS. We strongly recommend you use SCSS rather than direct editing of CSS as most of the CSS including third party's are already combined in to a single CSS output file.</p>
+                        <p>To view all the SCSS variables added in this template, go to <code>/scss/inc/_variables.scss</code>. This includes all the overridden Bootstrap and custom defined variables.</p>
+                        <p>To view the custom Mixins, go to <code>/scss/inc/_mixins.scss/</code></p>
+                        <p>To read more about using SCSS in Bootstrap framework, head on to <a target="_blank" href="https://getbootstrap.com/docs/4.0/getting-started/theming/#sass">https://getbootstrap.com/docs/4.0/getting-started/theming/#sass</a></p>
+
+                        <h3 class="card__sub">About SCSS file/folder structure</h3>
+
+                        <p>Template specific SCSS styles are splitted in to smaller files in order to make the coding process much simpler. This way, it's much easier to look for a certain element or to organize the style codes in a proper way.</p>
+
+                        <div class="card__demo card__demo--light">
+                            <pre><code class="language-non">scss/
+    ├── app.scss/
+    └── inc/
+         ├── bootstrap-overrides/
+         ├── vendor-overrides/
+         ├── widgets/
+         ├── _base.scss
+         ├── _charts.scss
+         └── ...</code></pre>
+                        </div>
+
+                        <br>
+
+                        <p><code>app.scss</code> is the main style file which includes all the sub styles inside <code>inc</code> directory.</p>
+                        <p><code>/bootstrap-overrides</code> directory includes all Bootstrap style overrides such as Buttons, Dropdown, Cards etc.</p>
+                        <p><code>/vendor-overrides</code> directory includes all third party plugin style overrides.</p>
+                    </div>
+
+                    <div class="card" id="font">
+                        <div class="card__title">
+                            <h2>Font</h2>
+                        </div>
+                        
+                        <div class="lightbox lightbox--single">
+                            <a href="img/font/font.png">
+                                <img src="img/font/font.png" alt="">
+                            </a>
+                        </div>
+
+                        <p>Nunito is the font used in this template for both body copy and headings. It's a google font from <a href="https://fonts.google.com" target="_blank">https://fonts.google.com</a> and to further check it out, go to
+                            <a href="https://fonts.google.com/specimen/Nunito" target="">https://fonts.google.com/specimen/Nunito</a>. For monospace, Bootstrap 4's default 'Menlo' is used.</p>
+
+                        <p>If you want to change the default font to something else:</p>
+
+                        <ol>
+                            <li>Copy your new font inside <code>/fonts/[font-name-directory]/</code></li>
+                            <li>Include the <code>@font-face</code> code at <code>/scss/inc/_font.scss</code></li>
+                            <li>
+                                Update the SCSS variable <code>$font-family-sans-serif</code> at <code>/scss/inc/_variables.scss</code>
+
+                                <br>
+
+                                e.g: <code>$font-family-sans-serif: 'Roboto';</code>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="card" id="third-party-vendors">
+                        <div class="card__title">
+                            <h2>Third party vendors</h2>
+                        </div>
+
+                        <p>Super Admin 2.0 manages it's third party vendors through Bower package manager. Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Bower doesn’t concatenate or minify code or do anything else - it just installs the right versions of the packages you need and their dependencies.</p>
+                        <p>To install Bower in your machine globally with npm(assuming you have NodeJs installed), go to command line and run: </p>
+                        <div class="card__demo card__demo--light" style="margin-top: 10px"><pre><code class="language-bash">npm install -g bower</code></pre></div>
+
+                        <br>
+
+                        <p>To install any third party bower package, run command <code>bower install [package-name] --save</code></p>
+                        <p>e.g</p>
+                        <div class="card__demo card__demo--light" style="margin-top: 10px"><pre><code class="language-bash">bower install jquery --save</code></pre></div>
+
+                        <br>
+
+                        <p>Bower is initiated inside <code>/vendors/</code> folder. So make sure to navigate to the
+                            respective folder before you install any packages.</p>
+
+                        <p>To read more about bower and bower packages, go to <a target="_blank" href="https://bower.io/">https://bower.io/</a>
+                        </p>
+
+                        <h4 class="card__sub">Installed Vendors List</h4>
+
+                        <ol>
+                            <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+                            <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+                            <li><a href="http://zavoloklom.github.io/material-design-iconic-font/" target="_blank">Material Design Iconic Font</a></li>
+                            <li><a href="https://daneden.github.io/animate.css/" target="_blank">Animate.css</a></li>
+                            <li><a href="http://www.flotcharts.org/" target="_blank">Flot</a></li>
+                            <li><a href="https://github.com/krzysu/flot.tooltip" target="_blank">Flot Tooltips</a> (For Flot charts)</li>
+                            <li><a href="https://github.com/emmerich/flot-orderBars" target="_blank">Flot Orderbars</a> (For Flot charts)</li>
+                            <li><a href="https://github.com/MichaelZinsmaier/CurvedLines" target="_blank">Flot CurvedLines</a> (For Flot charts)</li>
+                            <li><a href="https://jqvmap.com/" target="_blank">jQuery Vector Maps</a></li>
+                            <li><a href="https://rendro.github.io/easy-pie-chart/" target="_blank">Easy Pie charts</a></li>
+                            <li><a href="https://datatables.net" target="_blank">Data Tables</a></li>
+                            <li><a href="https://github.com/DataTables/Dist-DataTables-Buttons-DataTables" target="_blank">Buttons for DataTables</a> (For Data Tables)</li>
+                            <li><a href="https://stuk.github.io/jszip/" target="_blank">JSZip</a> (For Data Tables)</li>
+                            <li><a href="http://www.jacklmoore.com/autosize/" target="_blank">Autosize Textarea</a></li>
+                            <li><a href="https://igorescobar.github.io/jQuery-Mask-Plugin/" target="_blank">jQuery Mask</a></li>
+                            <li><a href="https://select2.github.io/" target="_blank">Select 2</a></li>
+                            <li><a href="http://www.dropzonejs.com/" target="_blank">Dropzone JS</a></li>
+                            <li><a href="http://fullcalendar.io/" target="_blank">FullCalendar</a></li>
+                            <li><a href="http://momentjs.com/" target="_blank">Moment JS (For FullCalendar)</a></li>
+                            <li><a href="https://chmln.github.io/flatpickr/" target="_blank">Flatpickr</a></li>
+                            <li><a href="https://refreshless.com/nouislider/" target="_blank">noUiSlider</a></li>
+                            <li><a href="https://farbelous.github.io/bootstrap-colorpicker/" target="_blank">Bootstrap Colorpicker</a></li>
+                            <li><a href="https://alex-d.github.io/Trumbowyg/" target="_blank">Trumbowyg WYSIWYG Editor</a></li>
+                            <li><a href="https://limonte.github.io/sweetalert2/" target="_blank">SweetAlert 2</a></li>
+                            <li><a href="https://sachinchoolur.github.io/lightGallery/" target="_blank">LightGallery</a></li>
+                            <li><a href="https://github.com/josephschmitt/Clamp.js/" target="_blank">Clamp.js (For notes.html)</a></li>
+                            <li><a href="https://github.com/mouse0270/bootstrap-notify" target="_blank">Bootstrap Notify</a></li>
+                            <li><a href="https://gromo.github.io/jquery.scrollbar/demo/basic.html" target="_blank">jQuery Scrollbars</a></li>
+                            <li><a href="https://github.com/MohammadYounes/jquery-scrollLock" target="_blank">Scroll Lock</a> (For jQuery Scrollbars)</li>
+                            <li><a href="http://benpickles.github.io/peity/" target="_blank">Peity Charts</a></li>
+                            <li><a href="http://salvattore.com/" target="_blank">Salvattore</a></li>
+                        </ol>
+                    </div>
+
+                    <div class="card" id="basic-template">
+                        <div class="card__title">
+                            <h2>Basic Template</h2>
+                        </div>
+
+                        <div class="card__demo card__demo--light">
+                            <pre><code class="language-html">&#x3C;!DOCTYPE html&#x3E;
+&#x3C;html lang=&#x22;en&#x22;&#x3E;
+    &#x3C;head&#x3E;
+        &#x3C;meta charset=&#x22;utf-8&#x22;&#x3E;
+        &#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1, shrink-to-fit=no&#x22;&#x3E;
+        &#x3C;title&#x3E;Page Title&#x3C;/title&#x3E;
+
+        &#x3C;!-- App styles --&#x3E;
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/app.min.css&#x22;&#x3E;
+    &#x3C;/head&#x3E;
+
+    &#x3C;body data-ma-theme=&#x22;1&#x22;&#x3E;
+        &#x3C;main class=&#x22;main&#x22;&#x3E;
+
+            &#x3C;!-- Header --&#x3E;
+            &#x3C;header class=&#x22;header&#x22;&#x3E;
+                &#x3C;div class=&#x22;navigation-trigger hidden-xl-up&#x22; data-ma-action=&#x22;aside-open&#x22; data-ma-target=&#x22;.sidebar&#x22;&#x3E;
+                    &#x3C;i class=&#x22;zmdi zmdi-menu&#x22;&#x3E;&#x3C;/i&#x3E;
+                &#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;logo hidden-sm-down&#x22;&#x3E;
+                    &#x3C;h1&#x3E;&#x3C;a href=&#x22;index.html&#x22;&#x3E;Logo&#x3C;/a&#x3E;&#x3C;/h1&#x3E;
+                &#x3C;/div&#x3E;
+
+                &#x3C;!-- Other Header Contents --&#x3E;
+            &#x3C;/header&#x3E;
+
+
+            &#x3C;!-- Sidebar --&#x3E;
+            &#x3C;aside class=&#x22;sidebar&#x22;&#x3E;
+                &#x3C;div class=&#x22;scrollbar-inner&#x22;&#x3E;
+                   &#x3C;!-- Sidebar Contents --&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/aside&#x3E;
+
+
+            &#x3C;!-- Contents --&#x3E;
+            &#x3C;section class=&#x22;content&#x22;&#x3E;
+                &#x3C;header class=&#x22;content__title&#x22;&#x3E;
+                    &#x3C;h1&#x3E;Main heading&#x3C;/h1&#x3E;
+                    &#x3C;small&#x3E;Sub heading contents&#x3C;/small&#x3E;
+                &#x3C;/header&#x3E;
+
+                &#x3C;!-- Page Contents --&#x3E;
+
+                &#x3C;!-- Footer --&#x3E;
+                &#x3C;footer class=&#x22;footer&#x22;&#x3E;
+                     &#x3C;!-- Footer Contents --&#x3E;
+                &#x3C;/footer&#x3E;
+            &#x3C;/section&#x3E;
+        &#x3C;/main&#x3E;
+
+
+        &#x3C;!-- Javascript --&#x3E;
+        &#x3C;!-- Vendors --&#x3E;
+        &#x3C;script src=&#x22;vendors/bower_components/jquery/dist/jquery.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+        &#x3C;script src=&#x22;vendors/bower_components/popper.js/dist/umd/popper.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+        &#x3C;script src=&#x22;vendors/bower_components/bootstrap/dist/js/bootstrap.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+        &#x3C;script src=&#x22;vendors/bower_components/jquery.scrollbar/jquery.scrollbar.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+        &#x3C;script src=&#x22;vendors/bower_components/jquery-scrollLock/jquery-scrollLock.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+
+        &#x3C;!-- App functions --&#x3E;
+        &#x3C;script src=&#x22;js/app.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    &#x3C;/body&#x3E;
+&#x3C;/html&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card" id="themes">
+                        <div class="card__title">
+                            <h2>Themes</h2>
+                        </div>
+
+                        <p>Super Admin 2.0 comes with 10 optional themes which can be access from the settings menu.</p>
+
+                        <div class="card__demo">
+                            <img src="img/themes/theme.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                        </div>
+
+                        <h3 class="card__sub">Switching themes manually</h3>
+                        <p>Themes can be switched using the data-attribute <code>data-sa-theme</code> which is applied on the <code>body</code> tag.</p>
+                        <p>Theme names are nothing but numbers from rang 1 - 10. In order to apply a new theme, simply add the number associated to the theme.</p>
+
+                        <p>e.g:</p>
+
+                        <div class="card__demo card__demo--light">
+                            <pre class="language-html"><code>&#x3C;body data-sa-theme=&#x22;5&#x22;&#x3E;
+   ...
+&#x3C;/body&#x3E;</code></pre>
+                        </div>
+
+                        <h3 class="card__sub">Saving a theme</h3>
+
+                        <p>Currently themese are used only for static demo purposes. You can use a backend database or a simple LocalStorage solution to save a theme so the applied new theme will also work after page refreshes.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/prism.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lightgallery.min.js"></script>
+<script src="js/functions.js"></script>
+    </body>
+</html>

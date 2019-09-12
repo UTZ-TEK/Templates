@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Super Admin 2.0 Extended Dark</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <body>
+        <header id="header">
+    <div class="header__logo">Super Admin 2.0</div>
+
+    <div class="header__links">
+        <a href="">Demo</a>
+        <a href="">Purchase</a>
+    </div>
+</header>
+
+        <main id="main">
+            <aside id="sidebar" data-spy="affix" data-offset-top="72">
+    <ul class="sidebar__links">
+        <li>
+            <span class="sidebar__title">Getting Started</span>
+            <ul>
+                <li><a href="index.html#getting-started">What's Included</a></li>
+                <li><a href="index.html#css-name">CSS Naming Conventions</a></li>
+                <li><a href="index.html#compiling-css-js">Compiling CSS and JavaScript</a></li>
+                <li><a href="index.html#using-scss">Using SCSS</a></li>
+                <li><a href="index.html#font">Font</a></li>
+                <li><a href="index.html#third-party-vendors">Third Party Vendors</a></li>
+                <li><a href="index.html#basic-template">Basic Template</a></li>
+                <li><a href="index.html#themes">Themes</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="layout-variants.html">Layout Variants</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="typography.html">Typography</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="widgets.html">Widgets</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Tables</span>
+            <ul>
+                <li><a href="tables.html">Normal Tables</a></li>
+                <li><a href="data-tables.html">Data Tables</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Form</span>
+            <ul>
+                <li><a href="form-elements.html">Form Groups & Elements</a></li>
+                <li><a href="form-components.html">Form Components</a></li>
+                <li><a href="form-validation.html">Form Validation</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">User Interface</span>
+            <ul>
+                <li><a href="colors.html">Colors</a></li>
+                <li><a href="animations.html">CSS Animations</a></li>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="icons.html">Icons</a></li>
+                <li><a href="listview.html">Listviews</a></li>
+                <li><a href="toolbar.html">Toolbars</a></li>
+                <li><a href="card.html">Cards</a></li>
+                <li><a href="alert.html">Alerts</a></li>
+                <li><a href="badges.html">Badges</a></li>
+                <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                <li><a href="jumbotron.html">Jumbotron</a></li>
+                <li><a href="navs.html">Navs</a></li>
+                <li><a href="pagination.html">Pagination</a></li>
+                <li><a href="progress.html">Progress</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Javascript Components</span>
+            <ul>
+                <li><a href="carousel.html">Carousel</a></li>
+                <li><a href="collapse.html">Collapse</a></li>
+                <li><a href="dropdown.html">Dropdowns</a></li>
+                <li><a href="modal.html">Modals</a></li>
+                <li><a href="popovers.html">Popovers</a></li>
+                <li><a href="tabs.html">Tabs</a></li>
+                <li><a href="tooltips.html">Tooltips</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="custom-alerts.html">Alerts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Charts</span>
+            <ul>
+                <li><a href="flot-charts.html">Flot Charts</a></li>
+                <li><a href="peity-charts.html">Peitty Charts</a></li>
+                <li><a href="easypie.html">EasyPie Charts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="photos.html">Photo Gallery</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="calendar.html">Calendar</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Site components</span>
+
+            <ul>
+                <li><a href="page-headers.html">Page Headers</a></li>
+                <li><a href="actions-icons.html">Action Icons</a></li>
+                <li><a href="dashboard-columns.html">Dashboard Columns (Masonry like)</a></li>
+            </ul>
+        </li>
+    </ul>
+</aside>
+
+            <section id="content">
+                <div class="content__wrapper">
+                    <div class="content__title">
+                        <h2>Form Groups and Elements</h2>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Form Groups</h2>
+                        </div>
+
+                        <p>Form Group is used to wrap input elements such as input texts, textareas and selects in order to add extra styling. Form Group can be also used with third party
+                            form components such as select2, noUislider or any other form related elements.</p>
+
+                        <div class="card__demo card__demo--light">
+                            <pre><code class="language-html">&#x3C;div class=&#x22;form-group&#x22;&#x3E;
+    &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22;&#x3E;
+    &#x3C;i class=&#x22;form-group__bar&#x22;&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Input Text</h2>
+                        </div>
+
+                        <p>Text Inputs with different sizes by height.</p>
+                        
+                        <div class="card__demo">
+                            <img src="img/form/text.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;div class=&#x22;form-group&#x22;&#x3E;
+    &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control input-sm&#x22; placeholder=&#x22;Input Small&#x22;&#x3E;
+    &#x3C;i class=&#x22;form-group__bar&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/div&#x3E;
+
+&#x3C;div class=&#x22;form-group&#x22;&#x3E;
+    &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22; placeholder=&#x22;Input Default&#x22;&#x3E;
+    &#x3C;i class=&#x22;form-group__bar&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/div&#x3E;
+
+&#x3C;div class=&#x22;form-group&#x22;&#x3E;
+    &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control input-lg&#x22; placeholder=&#x22;Input Large&#x22;&#x3E;
+    &#x3C;i class=&#x22;form-group__bar&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                        </div>
+
+                        <br><br>
+
+                        <p>Wrap inputs in grid columns, or any custom parent element, to easily enforce desired widths.</p>
+
+                        <div class="card__demo">
+                            <img src="img/form/grid.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;div class=&#x22;row&#x22;&#x3E;
+  &#x3C;div class=&#x22;col-xs-2&#x22;&#x3E;
+    &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+        &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22; placeholder=&#x22;col-xs-2&#x22;&#x3E;
+        &#x3C;i class=&#x22;form-group__bar&#x22;&#x3E;&#x3C;/i&#x3E;
+    &#x3C;/div&#x3E;
+  &#x3C;/div&#x3E;
+
+  &#x3C;div class=&#x22;col-xs-3&#x22;&#x3E;
+    &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+        &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22; placeholder=&#x22;col-xs-3&#x22;&#x3E;
+        &#x3C;i class=&#x22;form-group__bar&#x22;&#x3E;&#x3C;/i&#x3E;
+    &#x3C;/div&#x3E;
+  &#x3C;/div&#x3E;
+
+  &#x3C;div class=&#x22;col-xs-4&#x22;&#x3E;
+    &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+        &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22; placeholder=&#x22;col-xs-4&#x22;&#x3E;
+        &#x3C;i class=&#x22;form-group__bar&#x22;&#x3E;&#x3C;/i&#x3E;
+    &#x3C;/div&#x3E;
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Textarea</h2>
+                        </div>
+
+                        <p>Form control which supports multiple lines of text. Change 'rows' attribute as necessary.</p>
+
+                        <div class="card__demo">
+                            <img src="img/form/textarea.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;div class=&#x22;form-group&#x22;&#x3E;
+    &#x3C;textarea class=&#x22;form-control&#x22; rows=&#x22;5&#x22; placeholder=&#x22;Let us type some lorem ipsum....&#x22;&#x3E;&#x3C;/textarea&#x3E;
+    &#x3C;i class=&#x22;form-group__bar&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                        </div>
+
+                        <h4 class="card__sub">Auto Height Textarea</h4>
+                        <p>Auto height growing textarea is made possible using the awesome plugin <a target="_blank" href="http://www.jacklmoore.com/autosize/">http://www.jacklmoore.com/autosize/</a>. Make sure to include autosize javascript library as mentioned below before using this plugin on any textarea elements.</p>
+
+                        <div class="card__demo">
+                            <img src="img/form/textarea-size.gif" alt="">
+
+                            <ul class="tab-nav tab-nav--justified">
+                                <li><a href="#textarea-size-html" data-toggle="tab">HTML</a></li>
+                                <li><a href="#textarea-size-js" data-toggle="tab">Javascript</a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="textarea-size-html">
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;form-group&#x22;&#x3E;
+    &#x3C;textarea class=&#x22;form-control textarea-autosize&#x22; placeholder=&#x22;Start pressing Enter to see growing...&#x22;&#x3E;&#x3C;/textarea&#x3E;
+    &#x3C;i class=&#x22;form-group__bar&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+                                <div class="tab-pane" id="textarea-size-js">
+                                    <pre><code class="language-js">// Please note that this function is already included in js/app.min.js(from js/inc/functions/vendors.js)
+// thus you don't need to add this again.
+
+autosize($(&#x27;.textarea-autosize&#x27;));</code></pre>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="card__sub">Requirements:</h3>
+
+                        <ul>
+                            <li><code>/vendors/bower_components/autosize/dist/autosize.min.js</code></li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Selects</h2>
+                        </div>
+
+                        <p>Use the default option, or add multiple to show multiple options at once.</p>
+
+                        <div class="card__demo">
+                            <img src="img/form/select.jpg" alt="">
+
+                            <pre><code class="language-html">&#x3C;div class=&#x22;form-group&#x22;&#x3E;
+    &#x3C;div class=&#x22;select&#x22;&#x3E;
+        &#x3C;select class=&#x22;form-control&#x22;&#x3E;
+            &#x3C;option&#x3E;Select an Option&#x3C;/option&#x3E;
+            &#x3C;option&#x3E;Option 1&#x3C;/option&#x3E;
+            &#x3C;option&#x3E;Option 2&#x3C;/option&#x3E;
+            &#x3C;option&#x3E;Option 3&#x3C;/option&#x3E;
+            &#x3C;option&#x3E;Option 4&#x3C;/option&#x3E;
+            &#x3C;option&#x3E;Option 5&#x3C;/option&#x3E;
+        &#x3C;/select&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Checkboxes and Radios</h2>
+                        </div>
+
+                        <p>Default checkboxes and radios are improved upon with the help of <code>.form-check</code>, a single class for both input types that improves the layout and behavior of their HTML elements. Checkboxes are for selecting one or several options in a list, while radios are for selecting one option from many.</p>
+
+                        <h3 class="card__sub">Default (stacked)</h3>
+                        <p>By default, any number of checkboxes and radios that are immediate sibling will be vertically stacked and appropriately spaced with <code>.form-check</code>.</p>
+
+                        <div class="card__demo">
+                            <img src="img/checkbox-radio/basic.png" alt="">
+
+                            <pre><code class="language-html">&#x3C;!-- Checkbox --&#x3E;
+&#x3C;label class=&#x22;custom-control custom-checkbox&#x22;&#x3E;
+    &#x3C;input type=&#x22;checkbox&#x22; class=&#x22;custom-control-input&#x22;&#x3E;
+    &#x3C;span class=&#x22;custom-control-indicator&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;span class=&#x22;custom-control-description&#x22;&#x3E;Option one is this and that-be sure to include why it&#x27;s great&#x3C;/span&#x3E;
+&#x3C;/label&#x3E;
+
+&#x3C;label class=&#x22;custom-control custom-checkbox&#x22;&#x3E;
+    &#x3C;input type=&#x22;checkbox&#x22; class=&#x22;custom-control-input&#x22; disabled&#x3E;
+    &#x3C;span class=&#x22;custom-control-indicator&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;span class=&#x22;custom-control-description&#x22;&#x3E;Option two is disabled&#x3C;/span&#x3E;
+&#x3C;/label&#x3E;
+
+
+&#x3C;!-- Radio --&#x3E;
+&#x3C;label class=&#x22;custom-control custom-radio&#x22;&#x3E;
+    &#x3C;input type=&#x22;radio&#x22; name=&#x22;radio&#x22; class=&#x22;custom-control-input&#x22;&#x3E;
+    &#x3C;span class=&#x22;custom-control-indicator&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;span class=&#x22;custom-control-description&#x22;&#x3E;Or toggle this other custom radio&#x3C;/span&#x3E;
+&#x3C;/label&#x3E;
+
+&#x3C;label class=&#x22;custom-control custom-radio&#x22;&#x3E;
+    &#x3C;input type=&#x22;radio&#x22; name=&#x22;radio&#x22; class=&#x22;custom-control-input&#x22; disabled&#x3E;
+    &#x3C;span class=&#x22;custom-control-indicator&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;span class=&#x22;custom-control-description&#x22;&#x3E;This one is disabled&#x3C;/span&#x3E;
+&#x3C;/label&#x3E;</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/prism.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lightgallery.min.js"></script>
+<script src="js/functions.js"></script>
+    </body>
+</html>

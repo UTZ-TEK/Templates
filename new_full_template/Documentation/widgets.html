@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Super Admin 2.0 Extended Dark</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <body>
+    <header id="header">
+    <div class="header__logo">Super Admin 2.0</div>
+
+    <div class="header__links">
+        <a href="">Demo</a>
+        <a href="">Purchase</a>
+    </div>
+</header>
+
+    <main id="main">
+        <aside id="sidebar" data-spy="affix" data-offset-top="72">
+    <ul class="sidebar__links">
+        <li>
+            <span class="sidebar__title">Getting Started</span>
+            <ul>
+                <li><a href="index.html#getting-started">What's Included</a></li>
+                <li><a href="index.html#css-name">CSS Naming Conventions</a></li>
+                <li><a href="index.html#compiling-css-js">Compiling CSS and JavaScript</a></li>
+                <li><a href="index.html#using-scss">Using SCSS</a></li>
+                <li><a href="index.html#font">Font</a></li>
+                <li><a href="index.html#third-party-vendors">Third Party Vendors</a></li>
+                <li><a href="index.html#basic-template">Basic Template</a></li>
+                <li><a href="index.html#themes">Themes</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="layout-variants.html">Layout Variants</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="typography.html">Typography</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="widgets.html">Widgets</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Tables</span>
+            <ul>
+                <li><a href="tables.html">Normal Tables</a></li>
+                <li><a href="data-tables.html">Data Tables</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Form</span>
+            <ul>
+                <li><a href="form-elements.html">Form Groups & Elements</a></li>
+                <li><a href="form-components.html">Form Components</a></li>
+                <li><a href="form-validation.html">Form Validation</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">User Interface</span>
+            <ul>
+                <li><a href="colors.html">Colors</a></li>
+                <li><a href="animations.html">CSS Animations</a></li>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="icons.html">Icons</a></li>
+                <li><a href="listview.html">Listviews</a></li>
+                <li><a href="toolbar.html">Toolbars</a></li>
+                <li><a href="card.html">Cards</a></li>
+                <li><a href="alert.html">Alerts</a></li>
+                <li><a href="badges.html">Badges</a></li>
+                <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                <li><a href="jumbotron.html">Jumbotron</a></li>
+                <li><a href="navs.html">Navs</a></li>
+                <li><a href="pagination.html">Pagination</a></li>
+                <li><a href="progress.html">Progress</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Javascript Components</span>
+            <ul>
+                <li><a href="carousel.html">Carousel</a></li>
+                <li><a href="collapse.html">Collapse</a></li>
+                <li><a href="dropdown.html">Dropdowns</a></li>
+                <li><a href="modal.html">Modals</a></li>
+                <li><a href="popovers.html">Popovers</a></li>
+                <li><a href="tabs.html">Tabs</a></li>
+                <li><a href="tooltips.html">Tooltips</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="custom-alerts.html">Alerts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Charts</span>
+            <ul>
+                <li><a href="flot-charts.html">Flot Charts</a></li>
+                <li><a href="peity-charts.html">Peitty Charts</a></li>
+                <li><a href="easypie.html">EasyPie Charts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="photos.html">Photo Gallery</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li><a href="calendar.html">Calendar</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <span class="sidebar__title">Site components</span>
+
+            <ul>
+                <li><a href="page-headers.html">Page Headers</a></li>
+                <li><a href="actions-icons.html">Action Icons</a></li>
+                <li><a href="dashboard-columns.html">Dashboard Columns (Masonry like)</a></li>
+            </ul>
+        </li>
+    </ul>
+</aside>
+
+            <section id="content">
+                <div class="content__wrapper">
+                    <div class="content__title">
+                        <h2>Widgets</h2>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h2>Widgets</h2>
+                        </div>
+
+                        <p>Select a widget from the select below to view it's source code. Some widgets may require one or more third party plugins to be properly functional so make sure to include them in your file.</p>
+
+                        <div class="tab-select" style="width: 50%">
+                            <div class="dropdown">
+                                <a href="" class="tab-select__current" data-toggle="dropdown">Quick Stats</a>
+
+                                <ul class="dropdown-menu dropdown-menu--block">
+                                    <li class="active"><a href="#widgets-quick-stats" data-action="tab-select">Quick Stats</a></li>
+                                    <li><a href="#widgets-stats" data-action="tab-select">Stats</a></li>
+                                    <li><a href="#widgets-calendar" data-action="tab-select">Calendar</a></li>
+                                    <li><a href="#widgets-contact" data-action="tab-select">Contact Information</a></li>
+                                    <li><a href="#widgets-curved-line-chart" data-action="tab-select">Curved Line Chart</a></li>
+                                    <li><a href="#widgets-dynamic-chart" data-action="tab-select">Dynamic Chart</a></li>
+                                    <li><a href="#widgets-featured-post" data-action="tab-select">Featured Post</a></li>
+                                    <li><a href="#widgets-line-chart" data-action="tab-select">Line Chart</a></li>
+                                    <li><a href="#widgets-past-days" data-action="tab-select">Past Days Data</a></li>
+                                    <li><a href="#widgets-photos" data-action="tab-select">Photos</a></li>
+                                    <li><a href="#widgets-profile" data-action="tab-select">Single Profile</a></li>
+                                    <li><a href="#widgets-ratings" data-action="tab-select">Ratings</a></li>
+                                    <li><a href="#widgets-signups" data-action="tab-select">Recent Signups</a></li>
+                                    <li><a href="#widgets-tasks" data-action="tab-select">Tasks</a></li>
+                                    <li><a href="#widgets-todo" data-action="tab-select">Todo Lists</a></li>
+                                    <li><a href="#widgets-visitors" data-action="tab-select">Website Visitors</a></li>
+                                    <li><a href="#widgets-pie" data-action="tab-select">Pie Charts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="tab-select-content">
+                            <div class="tab-select-content__pane active" id="widgets-quick-stats">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/quick-stats.png">
+                                            <img src="img/widgets/quick-stats.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;row quick-stats&#x22;&#x3E;
+    &#x3C;div class=&#x22;col-sm-6&#x22;&#x3E;
+        &#x3C;div class=&#x22;quick-stats__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;quick-stats__info&#x22;&#x3E;
+                &#x3C;h2&#x3E;987,459&#x3C;/h2&#x3E;
+                &#x3C;small&#x3E;Total Leads Recieved&#x3C;/small&#x3E;
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;quick-stats__chart peity-bar&#x22;&#x3E;6,4,8,6,5,6,7,8,3,5,9&#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;col-sm-6&#x22;&#x3E;
+        &#x3C;div class=&#x22;quick-stats__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;quick-stats__info&#x22;&#x3E;
+                &#x3C;h2&#x3E;356,785K&#x3C;/h2&#x3E;
+                &#x3C;small&#x3E;Total Website Clicks&#x3C;/small&#x3E;
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;quick-stats__chart peity-bar&#x22;&#x3E;4,7,6,2,5,3,8,6,6,4,8&#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/other-charts.js</code></li>
+                                    <li><code>/scss/inc/widgets/_quick-stats.scss</code></li>
+                                    <li><code>/vendors/bower_components/peity/jquery.peity.min.js</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-stats">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/stats.png">
+                                            <img src="img/widgets/stats.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;stats&#x22;&#x3E;
+    &#x3C;div class=&#x22;stats__item&#x22;&#x3E;
+        &#x3C;div class=&#x22;stats__chart&#x22;&#x3E;
+            &#x3C;div class=&#x22;flot-chart flot-chart--sm stats-chart-1&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;stats__info&#x22;&#x3E;
+            &#x3C;div&#x3E;
+                &#x3C;h2&#x3E;987,459&#x3C;/h2&#x3E;
+                &#x3C;small&#x3E;Website Traffics&#x3C;/small&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/flot-charts/curved-line.js</code></li>
+                                    <li><code>/scss/inc/widgets/_quick-stats.scss</code></li>
+                                    <li><code>/scss/inc/vendor-overrides/_flot.scss</code></li>
+                                    <li><code>/vendors/bower_components/flot/jquery.flot.js</code></li>
+                                    <li><code>/vendors/bower_components/flot.curvedlines/curvedLines.js</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-calendar">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/calendar.png">
+                                            <img src="img/widgets/calendar.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card widget-calendar&#x22;&#x3E;
+    &#x3C;div class=&#x22;actions&#x22;&#x3E;
+        &#x3C;a href=&#x22;calendar.html&#x22; class=&#x22;actions__item zmdi zmdi-plus&#x22;&#x3E;&#x3C;/a&#x3E;
+        &#x3C;div class=&#x22;dropdown actions__item&#x22;&#x3E;
+            &#x3C;i class=&#x22;zmdi zmdi-more-vert&#x22; data-toggle=&#x22;dropdown&#x22;&#x3E;&#x3C;/i&#x3E;
+            &#x3C;div class=&#x22;dropdown-menu dropdown-menu-right&#x22;&#x3E;
+                &#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;&#x22;&#x3E;Refresh&#x3C;/a&#x3E;
+                &#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;&#x22;&#x3E;Calendar Settings&#x3C;/a&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;widget-calendar__header&#x22;&#x3E;
+        &#x3C;div class=&#x22;widget-calendar__year&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;widget-calendar__day&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;widget-calendar__body&#x22;&#x3E;&#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/js/inc/functions/vendors.js</code></li>
+                                    <li><code>/scss/inc/vendor-overrides/_fullcalendar.scss</code></li>
+                                    <li><code>/vendors/bower_components/moment/min/moment.min.js</code></li>
+                                    <li><code>/vendors/bower_components/fullcalendar/fullcalendar.min.css</code></li>
+                                    <li><code>/vendors/bower_components/fullcalendar/fullcalendar.min.js</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-contact">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/contact.png">
+                                            <img src="img/widgets/contact.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card widget-contacts&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Contact Information&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Fusce eget dolor id justo luctus commodo vel pharetra nisi&#x3C;/h6&#x3E;
+
+        &#x3C;ul class=&#x22;icon-list&#x22;&#x3E;
+            &#x3C;li&#x3E;&#x3C;i class=&#x22;zmdi zmdi-phone&#x22;&#x3E;&#x3C;/i&#x3E; 00971123456789&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;&#x3C;i class=&#x22;zmdi zmdi-email&#x22;&#x3E;&#x3C;/i&#x3E; malinda.h@gmail.com&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;&#x3C;i class=&#x22;zmdi zmdi-facebook-box&#x22;&#x3E;&#x3C;/i&#x3E; malinda.hollaway&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;&#x3C;i class=&#x22;zmdi zmdi-twitter&#x22;&#x3E;&#x3C;/i&#x3E; @malinda (twitter.com/malinda)&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;&#x3C;i class=&#x22;zmdi zmdi-pin&#x22;&#x3E;&#x3C;/i&#x3E;
+                &#x3C;address&#x3E;
+                    44-46 Morningside Road,
+                    Edinburgh,
+                    Scotland
+                &#x3C;/address&#x3E;
+            &#x3C;/li&#x3E;
+        &#x3C;/ul&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;a class=&#x22;widget-contacts__map&#x22; href=&#x22;&#x22;&#x3E;
+        &#x3C;!-- Map --&#x3E;
+    &#x3C;/a&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/scss/inc/widgets/_contact.scss</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-curved-line-chart">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/curved-line-chart.png">
+                                            <img src="img/widgets/curved-line-chart.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Sales Statistics&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Vestibulum purus quam scelerisque, mollis nonummy metus&#x3C;/h6&#x3E;
+
+        &#x3C;div class=&#x22;flot-chart flot-curved-line&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;flot-chart-legends flot-chart-legends--curved&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/flot-charts/curved-line.js</code></li>
+                                    <li><code>/scss/inc/vendor-overrides/_flot.scss</code></li>
+                                    <li><code>/vendors/bower_components/flot/jquery.flot.js</code></li>
+                                    <li><code>/vendors/bower_components/flot.curvedlines/curvedLines.js</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-dynamic-chart">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/dynamic-chart.png">
+                                            <img src="img/widgets/dynamic-chart.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Server Process&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Maecenas faucibus mollis interdum porttitor&#x3C;/h6&#x3E;
+
+        &#x3C;div class=&#x22;flot-chart flot-dynamic&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;flot-chart-legends flot-chart-legends--dynamic&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/flot-charts/dynamic.js</code></li>
+                                    <li><code>/scss/inc/vendor-overrides/_flot.scss</code></li>
+                                    <li><code>/vendors/bower_components/flot/jquery.flot.js</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-featured-post">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/featured-post.png">
+                                            <img src="img/widgets/featured-post.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card&#x22;&#x3E;
+    &#x3C;img class=&#x22;card-img-top&#x22; src=&#x22;[image source]&#x22; alt=&#x22;&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Pellentesque Ligula Fringilla&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;by Malinda Hollaway on 19th June 2015 at 09:10 AM&#x3C;/h6&#x3E;
+
+        &#x3C;p&#x3E;Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra.&#x3C;/p&#x3E;
+        &#x3C;a href=&#x22;&#x22; class=&#x22;view-more text-left&#x22;&#x3E;View Article...&#x3C;/a&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-line-chart">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/line-chart.png">
+                                            <img src="img/widgets/line-chart.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Growth Rate&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Commodo luctus nisi erat porttitor ligula eget lacinia odio semnec&#x3C;/h6&#x3E;
+
+        &#x3C;div class=&#x22;flot-chart flot-line&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;flot-chart-legends flot-chart-legends--line&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/flot-charts/line.js</code></li>
+                                    <li><code>/scss/inc/vendor-overrides/_flot.scss</code></li>
+                                    <li><code>/vendors/bower_components/flot/jquery.flot.js</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-past-days">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/past-days.png">
+                                            <img src="img/widgets/past-days.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card widget-past-days&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;For the past 30 days&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Pellentesque ornare sem lacinia quam&#x3C;/h6&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;widget-past-days__main&#x22;&#x3E;
+        &#x3C;div class=&#x22;flot-chart flot-chart--sm flot-past-days&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;listview listview--striped&#x22;&#x3E;
+        &#x3C;div class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;widget-past-days__info&#x22;&#x3E;
+                &#x3C;small&#x3E;Page Views&#x3C;/small&#x3E;
+                &#x3C;h3&#x3E;47,896,536&#x3C;/h3&#x3E;
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;widget-past-days__chart hidden-sm&#x22;&#x3E;
+                &#x3C;div class=&#x22;peity-bar&#x22;&#x3E;6,9,5,6,3,7,5,4,6,5,6,4,2,5,8,2,6,9&#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/scss/inc/widgets/_past-days.scss</code></li>
+                                    <li><code>/demo/js/flot-charts/curved-line.js</code></li>
+                                    <li><code>/demo/js/other-charts.js</code></li>
+                                    <li><code>/scss/inc/vendor-overrides/_flot.scss</code></li>
+                                    <li><code>/vendors/bower_components/flot/jquery.flot.js</code></li>
+                                    <li><code>/vendors/bower_components/flot.curvedlines/curvedLines.js</code></li>
+                                    <li><code>/vendors/bower_components/peity/jquery.peity.min.js</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-photos">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/photos.png">
+                                            <img src="img/widgets/photos.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card widget-pictures&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Augue laoreet rutrum&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Cras congue nec lorem eget posuere&#x3C;/h6&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;widget-pictures__body row&#x22;&#x3E;
+        &#x3C;a href=&#x22;&#x22; class=&#x22;col-4&#x22;&#x3E;&#x3C;img src=&#x22;[image source]&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;
+        &#x3C;a href=&#x22;&#x22; class=&#x22;col-4&#x22;&#x3E;&#x3C;img src=&#x22;[image source]&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;
+        &#x3C;a href=&#x22;&#x22; class=&#x22;col-4&#x22;&#x3E;&#x3C;img src=&#x22;[image source]&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/scss/inc/widgets/_photos.scss</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-profile">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/profile.png">
+                                            <img src="img/widgets/profile.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card widget-profile&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;div class=&#x22;text-center&#x22;&#x3E;
+            &#x3C;img src=&#x22;demo/img/profile-pics/profile-pic.jpg&#x22; class=&#x22;widget-profile__img&#x22; alt=&#x22;&#x22;&#x3E;
+            &#x3C;h2 class=&#x22;card-title&#x22;&#x3E;Malinda Hollway&#x3C;/h2&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;actions actions--inverse&#x22;&#x3E;
+            &#x3C;div class=&#x22;actions__item&#x22;&#x3E;
+                &#x3C;i data-toggle=&#x22;dropdown&#x22; class=&#x22;zmdi zmdi-more-vert&#x22;&#x3E;&#x3C;/i&#x3E;
+                &#x3C;div class=&#x22;dropdown-menu dropdown-menu-right&#x22;&#x3E;
+                    &#x3C;a href=&#x22;&#x22; class=&#x22;dropdown-item&#x22;&#x3E;Refresh&#x3C;/a&#x3E;
+                    &#x3C;a href=&#x22;&#x22; class=&#x22;dropdown-item&#x22;&#x3E;Manage Widgets&#x3C;/a&#x3E;
+                    &#x3C;a href=&#x22;&#x22; class=&#x22;dropdown-item&#x22;&#x3E;Settings&#x3C;/a&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;widget-profile__list&#x22;&#x3E;
+        &#x3C;div class=&#x22;media&#x22;&#x3E;
+            &#x3C;div class=&#x22;avatar-char&#x22;&#x3E;&#x3C;i class=&#x22;zmdi zmdi-phone&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;media-body&#x22;&#x3E;
+                &#x3C;strong&#x3E;011 55694785&#x3C;/strong&#x3E;
+                &#x3C;small&#x3E;Home&#x3C;/small&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;media&#x22;&#x3E;
+            &#x3C;div class=&#x22;avatar-char&#x22;&#x3E;&#x3C;i class=&#x22;zmdi zmdi-email&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;media-body&#x22;&#x3E;
+                &#x3C;strong&#x3E;m-hollaway@gmail.com&#x3C;/strong&#x3E;
+                &#x3C;small&#x3E;Email&#x3C;/small&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;media&#x22;&#x3E;
+            &#x3C;div class=&#x22;avatar-char&#x22;&#x3E;&#x3C;i class=&#x22;zmdi zmdi-twitter&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;media-body&#x22;&#x3E;
+                &#x3C;strong&#x3E;@m-hollaway&#x3C;/strong&#x3E;
+                &#x3C;small&#x3E;Twitter&#x3C;/small&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/scss/inc/widgets/_profile.scss</code></li>
+                                    <li><code>/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-ratings">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/ratings.png">
+                                            <img src="img/widgets/ratings.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card widget-ratings&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body text-center&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Average Rating 3.0&#x3C;/h4&#x3E;
+
+        &#x3C;div class=&#x22;widget-ratings__star&#x22;&#x3E;
+            &#x3C;i class=&#x22;zmdi zmdi-star active&#x22;&#x3E;&#x3C;/i&#x3E;
+            &#x3C;i class=&#x22;zmdi zmdi-star active&#x22;&#x3E;&#x3C;/i&#x3E;
+            &#x3C;i class=&#x22;zmdi zmdi-star active&#x22;&#x3E;&#x3C;/i&#x3E;
+            &#x3C;i class=&#x22;zmdi zmdi-star&#x22;&#x3E;&#x3C;/i&#x3E;
+            &#x3C;i class=&#x22;zmdi zmdi-star&#x22;&#x3E;&#x3C;/i&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;widget-ratings__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;float-left&#x22;&#x3E;1 &#x3C;i class=&#x22;zmdi zmdi-star&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;float-right&#x22;&#x3E;20&#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;widget-ratings__progress&#x22;&#x3E;
+                &#x3C;div class=&#x22;progress&#x22;&#x3E;
+                    &#x3C;div class=&#x22;progress-bar bg-light&#x22; role=&#x22;progressbar&#x22; style=&#x22;width: 20%;&#x22; aria-valuenow=&#x22;20&#x22; aria-valuemin=&#x22;0&#x22; aria-valuemax=&#x22;100&#x22;&#x3E;&#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;widget-ratings__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;float-left&#x22;&#x3E;2 &#x3C;i class=&#x22;zmdi zmdi-star&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;float-right&#x22;&#x3E;45&#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;widget-ratings__progress&#x22;&#x3E;
+                &#x3C;div class=&#x22;progress&#x22;&#x3E;
+                    &#x3C;div class=&#x22;progress-bar bg-light&#x22; role=&#x22;progressbar&#x22; style=&#x22;width: 45%;&#x22; aria-valuenow=&#x22;45&#x22; aria-valuemin=&#x22;0&#x22; aria-valuemax=&#x22;100&#x22;&#x3E;&#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;widget-ratings__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;float-left&#x22;&#x3E;3 &#x3C;i class=&#x22;zmdi zmdi-star&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;float-right&#x22;&#x3E;60&#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;widget-ratings__progress&#x22;&#x3E;
+                &#x3C;div class=&#x22;progress&#x22;&#x3E;
+                    &#x3C;div class=&#x22;progress-bar bg-light&#x22; role=&#x22;progressbar&#x22; style=&#x22;width: 60%;&#x22; aria-valuenow=&#x22;60&#x22; aria-valuemin=&#x22;0&#x22; aria-valuemax=&#x22;100&#x22;&#x3E;&#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/scss/inc/widgets/_ratings.scss</code></li>
+                                    <li><code>/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-signups">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/signups.png">
+                                            <img src="img/widgets/signups.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card widget-signups&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Most Recent Signups&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Magna cursus malesuada lacinia&#x3C;/h6&#x3E;
+
+        &#x3C;div class=&#x22;actions actions--inverse&#x22;&#x3E;
+            &#x3C;div class=&#x22;actions__item&#x22;&#x3E;
+                &#x3C;i data-toggle=&#x22;dropdown&#x22; class=&#x22;zmdi zmdi-more-vert&#x22;&#x3E;&#x3C;/i&#x3E;
+                &#x3C;div class=&#x22;dropdown-menu dropdown-menu-right&#x22;&#x3E;
+                    &#x3C;a href=&#x22;&#x22; class=&#x22;dropdown-item&#x22;&#x3E;Refresh&#x3C;/a&#x3E;
+                    &#x3C;a href=&#x22;&#x22; class=&#x22;dropdown-item&#x22;&#x3E;Manage Widgets&#x3C;/a&#x3E;
+                    &#x3C;a href=&#x22;&#x22; class=&#x22;dropdown-item&#x22;&#x3E;Settings&#x3C;/a&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;widget-signups__list&#x22;&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Jani Popovich&#x22; href=&#x22;&#x22;&#x3E;&#x3C;img class=&#x22;avatar-img&#x22; src=&#x22;demo/img/profile-pics/1.jpg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Rosina Lamont&#x22; href=&#x22;&#x22;&#x3E;&#x3C;div class=&#x22;avatar-char&#x22;&#x3E;R&#x3C;/div&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Wava Vermeulen&#x22; href=&#x22;&#x22;&#x3E;&#x3C;div class=&#x22;avatar-char&#x22;&#x3E;W&#x3C;/div&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Delisa Sheilds&#x22; href=&#x22;&#x22;&#x3E;&#x3C;img class=&#x22;avatar-img&#x22; src=&#x22;demo/img/profile-pics/2.jpg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Elsy Wilhoit&#x22; href=&#x22;&#x22;&#x3E;&#x3C;img class=&#x22;avatar-img&#x22; src=&#x22;demo/img/profile-pics/3.jpg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Deanne Jeffreys&#x22; href=&#x22;&#x22;&#x3E;&#x3C;div class=&#x22;avatar-char&#x22;&#x3E;D&#x3C;/div&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;ddsds&#x22; href=&#x22;&#x22;&#x3E;&#x3C;div class=&#x22;avatar-char&#x22;&#x3E;F&#x3C;/div&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Shery Heredia&#x22; href=&#x22;&#x22;&#x3E;&#x3C;div class=&#x22;avatar-char&#x22;&#x3E;S&#x3C;/div&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Gaylord Coolbaugh&#x22; href=&#x22;&#x22;&#x3E;&#x3C;div class=&#x22;avatar-char&#x22;&#x3E;G&#x3C;/div&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Lyda Wortman&#x22; href=&#x22;&#x22;&#x3E;&#x3C;div class=&#x22;avatar-char&#x22;&#x3E;L&#x3C;/div&#x3E;&#x3C;/a&#x3E;
+            &#x3C;a data-toggle=&#x22;tooltip&#x22; title=&#x22;Corene Langstaff&#x22; href=&#x22;&#x22;&#x3E;&#x3C;img class=&#x22;avatar-img&#x22; src=&#x22;demo/img/profile-pics/4.jpg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/a&#x3E;
+            &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/scss/inc/widgets/_signups.scss</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-tasks">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/tasks.png">
+                                            <img src="img/widgets/tasks.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Ongoing Tasks&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Maecenas seddiam eget risusvarius blandit&#x3C;/h6&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;listview&#x22;&#x3E;
+        &#x3C;a href=&#x22;&#x22; class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;listview__content&#x22;&#x3E;
+                &#x3C;div class=&#x22;listview__heading&#x22;&#x3E;HTML5 Validation Report&#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;progress mt-2&#x22;&#x3E;
+                    &#x3C;div class=&#x22;progress-bar bg-primary&#x22; style=&#x22;width: 75%&#x22; aria-valuenow=&#x22;75&#x22; aria-valuemin=&#x22;0&#x22; aria-valuemax=&#x22;100&#x22;&#x3E;&#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/a&#x3E;
+
+        &#x3C;a href=&#x22;&#x22; class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;listview__content&#x22;&#x3E;
+                &#x3C;div class=&#x22;listview__heading&#x22;&#x3E;Google Chrome Extension&#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;progress mt-2&#x22;&#x3E;
+                    &#x3C;div class=&#x22;progress-bar bg-warning&#x22; style=&#x22;width: 43%&#x22; aria-valuenow=&#x22;43&#x22; aria-valuemin=&#x22;0&#x22; aria-valuemax=&#x22;100&#x22;&#x3E;&#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/a&#x3E;
+
+        &#x3C;a href=&#x22;&#x22; class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;listview__content&#x22;&#x3E;
+                &#x3C;div class=&#x22;listview__heading&#x22;&#x3E;Social Intranet Projects&#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;progress mt-2&#x22;&#x3E;
+                    &#x3C;div class=&#x22;progress-bar bg-success&#x22; style=&#x22;width: 20%&#x22; aria-valuenow=&#x22;20&#x22; aria-valuemin=&#x22;0&#x22; aria-valuemax=&#x22;100&#x22;&#x3E;&#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/a&#x3E;
+
+        &#x3C;a href=&#x22;&#x22; class=&#x22;view-more&#x22;&#x3E;View All Tasks&#x3C;/a&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-todo">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/todo.png">
+                                            <img src="img/widgets/todo.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card todo&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Todo lists&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Venenatis portauam Inceptos ameteiam&#x3C;/h6&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;listview&#x22;&#x3E;
+        &#x3C;div class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;label class=&#x22;custom-control custom-control--char todo__item&#x22;&#x3E;
+                &#x3C;input class=&#x22;custom-control-input&#x22; type=&#x22;checkbox&#x22; value=&#x22;&#x22; checked&#x3E;
+                &#x3C;span class=&#x22;custom-control--char__helper&#x22;&#x3E;&#x3C;i&#x3E;F&#x3C;/i&#x3E;&#x3C;/span&#x3E;
+                &#x3C;div class=&#x22;todo__info&#x22;&#x3E;
+                    &#x3C;span&#x3E;Fivamus sagittis lacus vel augue laoreet rutrum faucibus dolor&#x3C;/span&#x3E;
+                    &#x3C;small&#x3E;Today at 8.30 AM&#x3C;/small&#x3E;
+                &#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;listview__attrs&#x22;&#x3E;
+                    &#x3C;span&#x3E;#Messages&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;!!!&#x3C;/span&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/label&#x3E;
+
+            &#x3C;div class=&#x22;actions listview__actions&#x22;&#x3E;
+                &#x3C;div class=&#x22;dropdown actions__item&#x22;&#x3E;
+                    &#x3C;i class=&#x22;zmdi zmdi-more-vert&#x22; data-toggle=&#x22;dropdown&#x22;&#x3E;&#x3C;/i&#x3E;
+                    &#x3C;div class=&#x22;dropdown-menu dropdown-menu-right&#x22;&#x3E;
+                        &#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;&#x22;&#x3E;Mark as completed&#x3C;/a&#x3E;
+                        &#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;&#x22;&#x3E;Delete&#x3C;/a&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;label class=&#x22;custom-control custom-control--char todo__item&#x22;&#x3E;
+                &#x3C;input class=&#x22;custom-control-input&#x22; type=&#x22;checkbox&#x22; value=&#x22;&#x22; checked&#x3E;
+                &#x3C;span class=&#x22;custom-control--char__helper&#x22;&#x3E;&#x3C;i&#x3E;N&#x3C;/i&#x3E;&#x3C;/span&#x3E;
+                &#x3C;div class=&#x22;todo__info&#x22;&#x3E;
+                    &#x3C;span&#x3E;Nullam id dolor id nibh ultricies vehicula ut id elit&#x3C;/span&#x3E;
+                    &#x3C;small&#x3E;Today at 12.30 PM&#x3C;/small&#x3E;
+                &#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;listview__attrs&#x22;&#x3E;
+                    &#x3C;span&#x3E;#Clients&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;!!&#x3C;/span&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/label&#x3E;
+
+            &#x3C;div class=&#x22;actions listview__actions&#x22;&#x3E;
+                &#x3C;div class=&#x22;dropdown actions__item&#x22;&#x3E;
+                    &#x3C;i class=&#x22;zmdi zmdi-more-vert&#x22; data-toggle=&#x22;dropdown&#x22;&#x3E;&#x3C;/i&#x3E;
+                    &#x3C;div class=&#x22;dropdown-menu dropdown-menu-right&#x22;&#x3E;
+                        &#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;&#x22;&#x3E;Mark as completed&#x3C;/a&#x3E;
+                        &#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;&#x22;&#x3E;Delete&#x3C;/a&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;label class=&#x22;custom-control custom-control--char todo__item&#x22;&#x3E;
+                &#x3C;input class=&#x22;custom-control-input&#x22; type=&#x22;checkbox&#x22; value=&#x22;&#x22;&#x3E;
+                &#x3C;span class=&#x22;custom-control--char__helper&#x22;&#x3E;&#x3C;i&#x3E;C&#x3C;/i&#x3E;&#x3C;/span&#x3E;
+                &#x3C;div class=&#x22;todo__info&#x22;&#x3E;
+                    &#x3C;span&#x3E;Cras mattis consectetur purus sit amet fermentum&#x3C;/span&#x3E;
+                    &#x3C;small&#x3E;Tomorrow at 10.30 AM&#x3C;/small&#x3E;
+                &#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;listview__attrs&#x22;&#x3E;
+                    &#x3C;span&#x3E;#Clients&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;!!&#x3C;/span&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/label&#x3E;
+
+            &#x3C;div class=&#x22;actions listview__actions&#x22;&#x3E;
+                &#x3C;div class=&#x22;dropdown actions__item&#x22;&#x3E;
+                    &#x3C;i class=&#x22;zmdi zmdi-more-vert&#x22; data-toggle=&#x22;dropdown&#x22;&#x3E;&#x3C;/i&#x3E;
+                    &#x3C;div class=&#x22;dropdown-menu dropdown-menu-right&#x22;&#x3E;
+                        &#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;&#x22;&#x3E;Mark as completed&#x3C;/a&#x3E;
+                        &#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;&#x22;&#x3E;Delete&#x3C;/a&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;a href=&#x22;todos.html&#x22; class=&#x22;view-more&#x22;&#x3E;View More&#x3C;/a&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/scss/inc/_todo.scss</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-visitors">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/visitors.png">
+                                            <img src="img/widgets/visitors.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card widget-visitors&#x22;&#x3E;
+    &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+        &#x3C;h4 class=&#x22;card-title&#x22;&#x3E;Realtime Visitors&#x3C;/h4&#x3E;
+        &#x3C;h6 class=&#x22;card-subtitle&#x22;&#x3E;Nullam dolor isnibh ultricies vehicula adipiscing&#x3C;/h6&#x3E;
+
+        &#x3C;div class=&#x22;widget-visitors__stats&#x22;&#x3E;
+            &#x3C;div&#x3E;
+                &#x3C;strong&#x3E;23528&#x3C;/strong&#x3E;
+                &#x3C;small&#x3E;Visitor for last 24 hours&#x3C;/small&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;div&#x3E;
+                &#x3C;strong&#x3E;746&#x3C;/strong&#x3E;
+                &#x3C;small&#x3E;Visitors last 30 minutes&#x3C;/small&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;widget-visitors__map map-visitors&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;listview listview--bordered&#x22;&#x3E;
+        &#x3C;div class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;listview__content&#x22;&#x3E;
+                &#x3C;div class=&#x22;listview__heading&#x22;&#x3E;Sunday, September 4, 21:44:02 (2 Mins 56 Seconds)&#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;listview__attrs&#x22;&#x3E;
+                    &#x3C;span&#x3E;&#x3C;img class=&#x22;widget-visitors__country&#x22; src=&#x22;demo/img/flags/United_States_of_America.png&#x22; alt=&#x22;&#x22;&#x3E; United States&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;Firefox&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;Mac OSX&#x3C;/span&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;listview__content&#x22;&#x3E;
+                &#x3C;div class=&#x22;listview__heading&#x22;&#x3E;Sunday, September 4, 20:21:01 (5 Mins 12 Seconds)&#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;listview__attrs&#x22;&#x3E;
+                    &#x3C;span&#x3E;&#x3C;img class=&#x22;widget-visitors__country&#x22; src=&#x22;demo/img/flags/Australia.png&#x22; alt=&#x22;&#x22;&#x3E; Australia&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;Chrome&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;Android&#x3C;/span&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;listview__item&#x22;&#x3E;
+            &#x3C;div class=&#x22;listview__content&#x22;&#x3E;
+                &#x3C;div class=&#x22;listview__heading&#x22;&#x3E;Sunday, September 4, 20:21:10 (10 Mins 43 Seconds)&#x3C;/div&#x3E;
+
+                &#x3C;div class=&#x22;listview__attrs&#x22;&#x3E;
+                    &#x3C;span&#x3E;&#x3C;img class=&#x22;widget-visitors__country&#x22; src=&#x22;demo/img/flags/Brazil.png&#x22; alt=&#x22;&#x22;&#x3E; Brazil&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;Edge&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;Windows&#x3C;/span&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;p-3&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/scss/inc/widgets/_visitors.scss</code></li>
+                                    <li><code>/vendors/bower_components/jqvmap/dist/jqvmap.min.css</code></li>
+                                    <li><code>/vendors/bower_components/jqvmap/dist/jqvmap.min.js</code></li>
+                                    <li><code>/vendors/bower_components/jqvmap/dist/maps/jquery.vmap.world.js</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-pie">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/pie-charts.png">
+                                            <img src="img/widgets/pie-charts.png" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">&#x3C;div class=&#x22;card widget-pie&#x22;&#x3E;
+    &#x3C;div class=&#x22;col-6 col-sm-4 col-md-6 col-lg-4 widget-pie__item&#x22;&#x3E;
+        &#x3C;div class=&#x22;easy-pie-chart&#x22; data-percent=&#x22;50&#x22; data-size=&#x22;80&#x22; data-track-color=&#x22;rgba(0,0,0,0.08)&#x22; data-bar-color=&#x22;#fff&#x22;&#x3E;
+            &#x3C;span class=&#x22;easy-pie-chart__value&#x22;&#x3E;92&#x3C;/span&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;widget-pie__title&#x22;&#x3E;Email&#x3C;br&#x3E; Scheduled&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;col-6 col-sm-4 col-md-6 col-lg-4 widget-pie__item&#x22;&#x3E;
+        &#x3C;div class=&#x22;easy-pie-chart&#x22; data-percent=&#x22;11&#x22; data-size=&#x22;80&#x22; data-track-color=&#x22;rgba(0,0,0,0.08)&#x22; data-bar-color=&#x22;#fff&#x22;&#x3E;
+            &#x3C;span class=&#x22;easy-pie-chart__value&#x22;&#x3E;11&#x3C;/span&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;widget-pie__title&#x22;&#x3E;Email&#x3C;br&#x3E; Bounced&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;col-6 col-sm-4 col-md-6 col-lg-4 widget-pie__item&#x22;&#x3E;
+        &#x3C;div class=&#x22;easy-pie-chart&#x22; data-percent=&#x22;52&#x22; data-size=&#x22;80&#x22; data-track-color=&#x22;rgba(0,0,0,0.08)&#x22; data-bar-color=&#x22;#fff&#x22;&#x3E;
+            &#x3C;span class=&#x22;easy-pie-chart__value&#x22;&#x3E;52&#x3C;/span&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;widget-pie__title&#x22;&#x3E;Email&#x3C;br&#x3E; Opened&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/other-charts.js</code></li>
+                                    <li><code>/demo/scss/inc/widgets/_pie-charts.scss</code></li>
+                                    <li><code>/vendors/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-select-content__pane" id="widgets-xxx">
+                                <div class="card__demo">
+                                    <div class="lightbox">
+                                        <a href="img/widgets/xxx">
+                                            <img src="img/widgets/xxx" class="img-thumbnail img-thumbnail--ful" alt="">
+                                        </a>
+                                    </div>
+
+                                    <pre><code class="language-html">xxx</code></pre>
+                                </div>
+
+                                <h2 class="card__sub">Requirements:</h2>
+
+                                <ul>
+                                    <li><code>/demo/js/xxx</code></li>
+                                    <li><code>/vendors/bower_components/xxx/xxx</code></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/prism.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lightgallery.min.js"></script>
+<script src="js/functions.js"></script>
+    </body>
+</html>
