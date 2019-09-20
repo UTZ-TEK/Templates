@@ -7,8 +7,8 @@ require 'include/header.php';
             <small>Descripción de la página</small>
         </header>
 
-        
     </section>
+
 <?php
 require 'include/footer.php';
 ?>

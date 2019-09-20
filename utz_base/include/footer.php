@@ -52,6 +52,7 @@ echo '
 
         <!-- App functions and actions -->
         <script src="js/app.min.js"></script>
+        <script src="js/side_bar.js"></script>
     </body>
 </html>
 	 ';
