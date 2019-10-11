@@ -14,12 +14,16 @@
 	}
 	*/
 	//phpinfo();
-
+/*
 	$servername = "utztek.com";
 	$username = "utztekco_dev";
 	$password = "UtzDev2019@";
 	$db 	  = "utztekco_base_systems";
-
+*/
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$db 	  = "new_system";
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $db);
 

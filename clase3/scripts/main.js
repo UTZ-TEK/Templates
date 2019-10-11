@@ -36,6 +36,7 @@ function initial() {
         success: function(r) {                                                       
             if(r.verificar == 1){
                 $("#menu").html(r.botones_menu);
+                //alert(r.botones_menu);
             }else{
                 alert('No hay menus!');
             }

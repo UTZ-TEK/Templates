@@ -37,23 +37,32 @@
 		$jsondata = array();
 		$menu     = "";
 		$flag     = 0;
+		$r 		  = $_SESSION['rol'];
 
 		//<button type="button" class="btn btn-primary" id="buscar">Dashboard</button>
 
-		$query_menus = "
+		/*$query_menus = "
 						SELECT idmenus,nombre_menu,path
 						FROM menus
-						";
+						";*/
+
+		$query_menus = "
+						SELECT m.menu_name nombre,m.menu_path path
+						FROM permissions p
+						INNER JOIN menu m
+						ON p.menu_id = m.menu_id
+						WHERE p.rol_id = $r
+					   ";
 		$correr_query = mysqli_query($conn,$query_menus);
 
 		while ($r = mysqli_fetch_array($correr_query)){
 			#aca va todo nuestro codigo
-			$idmenu = $r['idmenus'];
-			$nombre = $r['nombre_menu'];
+			//$idmenu = $r['idmenus'];
+			$nombre = $r['nombre'];
 			$path   = $r['path'];
 
-			//$menu .= "<button type=\"button\" class=\"btn btn-primary\" id=\"buscar\">$nombre</button>";
-			$menu .= "<div class='row' > <h4>$nombre</h4> - <h3>$path</h3> </div> ";
+			$menu .= "<button type=\"button\" class=\"btn btn-primary\" id=\"buscar\">$nombre</button>";
+			//$menu .= "<div class='row' > <h4>$nombre</h4> - <h3>$path</h3> </div> ";
 
 			$flag = 1;
 		}
@@ -136,8 +145,8 @@
 		$query = "
 					SELECT count(*) numero_usuarios
 					FROM users
-					WHERE user = '$usuario'
-					AND pass = md5('$password')
+					WHERE user_id = '$usuario'
+					AND user_password = md5('$password')
 					";
 		//error_log($query);
 		$result = mysqli_query($conn,$query);
@@ -160,7 +169,24 @@
 		*/
 
 		if($n > 0){
-			$_SESSION['usuario'] = $usuario;
+			$query = "
+						SELECT 
+							user_name,
+							user_position,
+							user_rol_id
+						FROM users
+						WHERE user_id = '$usuario'
+					 ";
+			//error_log($query);
+			$result = mysqli_query($conn,$query);
+			//error_log(print_r($result,true));
+			$r      = mysqli_fetch_array($result);
+			$nombre   = $r['user_name'];
+			$position = $r['user_position'];
+			$rol 	  = $r['user_rol_id'];
+			$_SESSION['usuario']  = $nombre;
+			$_SESSION['position'] = $position;
+			$_SESSION['rol'] = $rol;
 		}else{
 			$_SESSION['usuario'] = 'no';
 		}
