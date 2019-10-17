@@ -1,7 +1,15 @@
 <?php
 require 'include/header.php';
 ?>
-    codigo acá!!
+    <section class="content">
+        <header class="content__title">
+            <h1>Titulo</h1>
+            <small>Descripción</small>
+        </header>
+        <div class="row">
+        	# Resto de la página acá!
+        </div>       
+    </section>
 <?php
 require 'include/footer.php';
 ?>

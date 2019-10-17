@@ -44,7 +44,34 @@
 			$path 	= $result['menu_path'];
 			$icon 	= $result['menu_icon'];
 
-			$menu .= "<li class=\"navigation__active\"><a href=\"$path\"><i class=\"$icon\"></i> $nombre</a></li>";
+			//error_log("MENU ID: $id");
+
+			if($path != '#'){
+				$menu .= "<li class=\"navigation\"><a href=\"$path\"><i class=\"$icon\"></i> $nombre</a></li>";
+			}else{
+				$menu .= "<li class=\"navigation__sub\">
+                			<a href=\"\">
+                				<i class=\"zmdi zmdi-view-week\"></i> 
+                				$nombre
+                			</a>
+          						<ul>";
+          		$query = "
+          					SELECT submenu_name, submenu_path
+							FROM submenu
+							WHERE menu_id = $id
+          				 ";
+          		$ejecutar_query = mysqli_query($conn, $query);
+          		while($fila = mysqli_fetch_array($ejecutar_query)){
+
+          			$p = $fila['submenu_path'];
+          			$n = $fila['submenu_name'];
+          			//error_log("SUB: $n");
+          			$menu .= "<li><a href=\"$p\">$n</a></li>";
+          		}
+          		$menu .= "		</ul>
+            			   </li>";
+			}
+			
 
 		}
 
