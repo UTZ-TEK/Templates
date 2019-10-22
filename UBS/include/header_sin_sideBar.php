@@ -37,11 +37,10 @@ echo "
                     </svg>
                 </div>
             </div>
+    <section class=\"content\">
 	 ";
 /*************BARRA DE NAVEGACION DE ARRIBA***********/
 require 'upper_nav.php';
 /*************BARRA DE NAVEGACION DE ARRIBA***********/
-/*************BARRA DE NAVEGACION DE LADO IZQUIERDO***********/
-require 'side_bar.php';
 /*************BARRA DE NAVEGACION DE LADO IZQUIERDO***********/
 ?>

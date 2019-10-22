@@ -2,7 +2,8 @@
 require 'include/header.php';
 require 'include/connection.php';
 ?>
-
+  <section class="content">
+  	
     <!--Esta CABECERA neceito que sea estatica como el header y va a tener que salir de la base de datos-->
     <div class="card">
         <header class="content__title">
@@ -204,6 +205,7 @@ require 'include/connection.php';
 
     </div>
 
+  </section>
 <?php
 require 'include/footer.php';
 ?>

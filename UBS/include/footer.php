@@ -19,8 +19,6 @@ echo '
                     </ul>
                 </footer>
 
-        </section>
-
                 <!---------ESTE FOOTER TAMBIEN DEBE DE SALIR DE LA DB--------------->
                 
             

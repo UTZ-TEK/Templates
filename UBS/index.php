@@ -53,63 +53,59 @@ echo '
                 <h1>'.$nombre_login.'</h1>
               </div>
             </header>
-          	<br><br>
-          	<br><br>
-          	<br><br>
-          	<br><br>
-          	<br>
+            <section class="error">
               <div class="col-lg-12">
-              <!-- Targeta transparente 1-->
-              <div class="row justify-content-center">
-               <div class="col-lg-5 col-md-10">
-                <div class="card">
-                 <div class="card-body">
-                   <h3 class="card-title">MEMBER LOGIN</h3>
-                    <div class="row">
-                      <div class="col-lg-9 mx-auto">
-                        <div class="auto-form-wrapper">
-                          <form method="post" action="upper_nav.php">
-                            <br>
-                            <div class="form-group">
-                              <label class="label">Username</label>
-                              <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Username" id="usr">
+                <!-- Targeta transparente 1-->
+                <div class="row justify-content-center">
+                 <div class="col-lg-5 col-md-10">
+                  <div class="card">
+                   <div class="card-body">
+                     <h3 class="card-title">MEMBER LOGIN</h3>
+                      <div class="row">
+                        <div class="col-lg-9 mx-auto">
+                          <div class="auto-form-wrapper">
+                            <form method="post" action="upper_nav.php">
+                              <div class="form-group">
+                                <label class="label">Username</label>
+                                <div class="input-group">
+                                  <input type="text" class="form-control" placeholder="Username" id="usr">
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <label class="label">Password</label>
-                              <div class="input-group">
-                                <input type="password" class="form-control" placeholder="*********"
-                                id="pass">
+                              <div class="form-group">
+                                <label class="label">Password</label>
+                                <div class="input-group">
+                                  <input type="password" class="form-control" placeholder="*********"
+                                  id="pass">
+                                </div>
                               </div>
-                            </div>
-                            <div class="row-100">
-                            	<div class="col-lg-10">
-                            		<input class="form-check-input" type="checkbox" value="" id="rememberMe">
-  							  	<label class="form-check-label" for="rememberMe">
-  							    Remember Me
-  							  	</label>
-                            	</div>
-                            </div>
-                            <br>
-                            <div class="form-group">
-                                <button type="button" id="login" class="btn btn-primary btn-block">Login</button>
-                            </div>
-                        	  	<br>
-                        		<br>
-                            <div class="form-group d-flex justify-content-center">
-                              <a href="#" class="text-small forgot-password text-blue"><u> Forgot your password?</u></a>
-                            </div>              
-                          </form>
+                              <div class="row-100">
+                              	<div class="col-lg-10">
+                              		<input class="form-check-input" type="checkbox" value="" id="rememberMe">
+    							  	<label class="form-check-label" for="rememberMe">
+    							    Remember Me
+    							  	</label>
+                              	</div>
+                              </div>
+                              <br>
+                              <div class="form-group">
+                                  <button type="button" id="login" class="btn btn-primary btn-block">Login</button>
+                              </div>
+                          	  	<br>
+                          		<br>
+                              <div class="form-group d-flex justify-content-center">
+                                <a href="#" class="text-small forgot-password text-blue"><u> Forgot your password?</u></a>
+                              </div>              
+                            </form>
+                          </div>
                         </div>
                       </div>
+                    <!--Fin de la tarjeta-->
                     </div>
-                  <!--Fin de la tarjeta-->
+                   </div>
                   </div>
                  </div>
                 </div>
-               </div>
-              </div>
+              </section>              
           </main>
 
           <!-- App functions and actions -->

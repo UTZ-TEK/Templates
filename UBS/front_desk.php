@@ -3,6 +3,7 @@ require 'include/header.php';
 require 'include/connection.php';
         
 echo '  
+    <section class="content">
 
         <!--Esta CABECERA neceito que sea estatica como el header y va a tener que salir de la base de datos-->
         <div class="card">
@@ -161,6 +162,8 @@ echo '
         <script src="vendors/bower_components/jquery/dist/jquery.min.js"></script>
 
         <script type="text/javascript" src="js/form_front_desk.js"></script>
+
+    </section>
         ';
 
 require 'include/footer.php';
