@@ -3097,7 +3097,7 @@ tbody.collapse.show {
   background-color: rgba(0, 0, 0, 0.2);
   background-clip: border-box;
   border: 1px solid transparent;
-  border-radius: 1px;
+  border-radius: 2px;
 }
 
 .card-body {

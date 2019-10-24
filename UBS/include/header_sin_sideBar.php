@@ -22,8 +22,7 @@ echo "
         <link rel=\"stylesheet\" href=\"vendors/bower_components/jquery.scrollbar/jquery.scrollbar.css\">
         <link rel=\"stylesheet\" href=\"vendors/bower_components/fullcalendar/dist/fullcalendar.min.css\">
         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
-        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
-        
+
         <!-- App styles -->
         <link rel=\"stylesheet\" href=\"css/app.min.css\">
     </head>
@@ -38,8 +37,10 @@ echo "
                     </svg>
                 </div>
             </div>
+    <section class=\"content\">
 	 ";
 /*************BARRA DE NAVEGACION DE ARRIBA***********/
 require 'upper_nav.php';
 /*************BARRA DE NAVEGACION DE ARRIBA***********/
+/*************BARRA DE NAVEGACION DE LADO IZQUIERDO***********/
 ?>
