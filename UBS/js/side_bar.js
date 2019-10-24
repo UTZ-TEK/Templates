@@ -1,8 +1,4 @@
 obtener_datos_barra_lateral();
-$(document).scroll(function () {
-    var $nav = $(".sticky-ubs");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-});
 
 function nueva() {   
    
