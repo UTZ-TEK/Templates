@@ -36,10 +36,7 @@ echo '
     </div>
 
     <div class="logo hidden-sm-down">
-    	<!------------- ESTO TIENE QUE SALIR DE LA BASE DE DATOS DIRECTAMENTE ---------------->
         <h1><a href="dashboard.php">'.$nombre_sistema.'</a></h1>
-        
-        <!------------- ESTO TIENE QUE SALIR DE LA BASE DE DATOS DIRECTAMENTE ---------------->
     </div>
     
     <!--Deje esto asi, porque es lo que quiero que realice el sistema, solo que no se bien como y donde cambiarlo-->

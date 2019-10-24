@@ -1,26 +1,15 @@
 <?php
 /*
-	12345
-	$host 	= 'localhost';
-	$user 	= 'root';
-	$pass	= '12345qwert@';
-
-	$link = mysql_connect($host,$user,$pass);
-
-	if(!$link OR !mysql_select_db('class1',$link)){
-		echo("Error en con!!!");
-		die('No se puede conectar a la DB!');
-	}else{
-		echo("CONECTADO!");
-	}
-	*/
-	//phpinfo();
-
 	$servername = "utztek.com";
 	$username = "utztekco_dev";
 	$password = "UtzDev2019@";
 	$db 	  = "utztekco_base_systems";
-
+*/
+	$servername = "25.61.55.238";
+	$username = "remote_root";
+	$password = "12345";
+	$db 	  = "new_system";
+	
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $db);
 
