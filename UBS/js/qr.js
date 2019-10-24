@@ -2,7 +2,7 @@
 
 		function crear_qr() {   
 			var textqr= "U-192030PL-1523";
-			var sizeqr= 90;
+			var sizeqr= 125;
 			parametros={"textqr":textqr,"sizeqr":sizeqr};
 
 		$.ajax({

@@ -3,106 +3,113 @@ require 'include/header_no_sidebar.php';
 ?>
     <section class="content content--full">
     
-    <div class="card">
-        <header class="content__title">
-            
-            <!-- Row 1-->
-            <div class="row">
-                <div class="col-md-2" align="center" id="generar">
-                	<div class='result'></div>
-                	<br>
-                	<H5>U-192030PL-1523</H5>
-                </div>
+	    <div class="card">
+	        <header class="content__title">
+	            
+	            <!-- Row 1-->
+	            <div class="row">
+	                <div class="col-md-2" align="center" id="generar">
+	                	<div class='result'></div>
+	                	<br>
+	                	<H5>U-192030PL-1523</H5>
+	                </div>
 
-                <div class="col-md-2">
-                 	
-                	<div class="row">
-							<div class="dropdown-demo">
-                                <div class="btn-group" dropdown>
-                                    <button type="button" class="btn btn-light">Danger</button>
-                                    <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
-                                        <span class="caret"></span>
-                                    </button>
+	                <div class="col-md-2">
+	                    <div class="dropdown-demo">                       	
+	                        <label class="btn btn-light" disabled>Account Name</label>
+	                    	    <select type="button" class="form-control">
+	                        	    <option></option>
+	                            	<option>Luna Zorro</option>
+	                            	<option>Stela (9)</option>
+	                          	</select>
 
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        <li class="divider dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                 	</div> 
+	                    </div> 
 
-                 	<div class="row">
-                 		B
-                 	</div> 
+	                    <div class="dropdown-demo" style="padding-top: 10px">                      	
+		                        <label class="btn btn-light" disabled>Selected Service</label>
+		                    	    <select type="button" class="form-control">
+		                        	    <option></option>
+		                            	<option>PLUS</option>
+		                            	<option>EXPRESS</option>
+		                          	</select>
 
-                </div>  
+	                   	</div>
 
-                <div class="col-md-2">
-                 	
-                	<div class="row">
-                		C
-                 	</div> 
+	                </div>  
 
-                 	<div class="row">
-                 		D
-                 	</div> 
+	                <div class="col-md-2">
+	                    <div class="dropdown-demo">                       	
+	                        <label class="btn btn-light" disabled>Location</label>
+                                <input type="text" class="form-control" disabled placeholder="Front Desk">
 
-                </div>  
+	                    </div> 
 
-                <div class="col-md-2">
-                 	
-                	<div class="row">
-                		E
-                 	</div> 
+	                    <div class="dropdown-demo" style="padding-top: 10px">                      	
+		                        <label class="btn btn-light" disabled>Status</label>
+		                    	    <select type="button" class="form-control">
+		                        	    <option></option>
+		                            	<option>SHIP</option>
+		                            	<option>QUOTE</option>
+		                          	</select>
 
-                 	<div class="row">
-                 		F
-                 	</div> 
+	                   	</div>
 
-                </div> 
+	                </div>
 
-                <div class="col-md-2">
-                 	
-                	<div class="row">
-                		G
-                 	</div> 
+	                <div class="col-md-2">
+	                	<div class="dropdown-demo">                       	
+	                        <label class="btn btn-light" disabled>Needs Permit?</label>
+	                            <div class="demo-inline-wrapper">
+                                    <div class="toggle-switch toggle-switch--green " style="padding-top: 10px">
+                                        <input type="checkbox" class="toggle-switch__checkbox">
+                                        <i class="toggle-switch__helper"></i>
+                                    </div>
+	                            </div>
 
-                 	<div class="row">
-                 		H
-                 	</div> 
+	                    </div>
 
-                </div>
+	                    <div class="dropdown-demo" style="padding-top: 18px">                       	
+	                        <label class="btn btn-light" disabled>R-4 Permit</label>
+                                <input type="text" class="form-control">
 
-                <div class="col-md-2">
-                 	
-                	<div class="row">
-                		I
-                 	</div> 
+	                    </div>
 
-                 	<div class="row">
-                 		J
-                 	</div> 
+	                </div> 
+	               
+		            <div class="col-md-2">
+		               3
+		            </div>
 
-                </div>    
-               
-            </div>
-
-        </header>
-    </div>
+	            </div>
+	        </header>
+	    </div>
 
     </section> 
 
-<!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- App functions and actions -->
-	<script type="text/javascript" src="js/qr.js"></script>
+    <script type="text/javascript" src="js/qr.js"></script>
+    <!-- App Fechas -->
+        <!-- Vendors -->
+        <script src="vendors/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="vendors/bower_components/popper.js/dist/umd/popper.min.js"></script>
+        <script src="vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="vendors/bower_components/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+        <script src="vendors/bower_components/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+
+        <script src="vendors/bower_components/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+        <script src="vendors/bower_components/select2/dist/js/select2.full.min.js"></script>
+        <script src="vendors/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+        <script src="vendors/bower_components/moment/min/moment.min.js"></script>
+        <script src="vendors/bower_components/flatpickr/dist/flatpickr.min.js"></script>
+        <script src="vendors/bower_components/nouislider/distribute/nouislider.min.js"></script>
+        <script src="vendors/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+        <script src="vendors/bower_components/trumbowyg/dist/trumbowyg.min.js"></script>
+
+        <!-- App functions and actions -->
+        <script src="js/app.min.js"></script>
 
 <?php
 require 'include/footer.php';
