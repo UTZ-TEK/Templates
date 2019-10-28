@@ -24,19 +24,13 @@ echo "
         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
         <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
         
-        <!-- App styles -->
-        <link rel=\"stylesheet\" href=\"css/app.min.css\">
 
-        <!-- Para el for Front desk 
-        <link rel=\"stylesheet\" href=\"vendors/bower_components/select2/dist/css/select2.min.css\">
+        <!-- Form front desk, fecha e import image -->
         <link rel=\"stylesheet\" href=\"vendors/bower_components/dropzone/dist/dropzone.css\">
         <link rel=\"stylesheet\" href=\"vendors/bower_components/flatpickr/dist/flatpickr.min.css\" />
-        <link rel=\"stylesheet\" href=\"vendors/bower_components/nouislider/distribute/nouislider.min.css\">
-        <link rel=\"stylesheet\" href=\"vendors/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.css\">
-        <link rel=\"stylesheet\" href=\"vendors/bower_components/trumbowyg/dist/ui/trumbowyg.min.css\">
-        <link rel=\"stylesheet\" href=\"demo/css/demo.css\">
-        -->
-
+   
+        <!-- App styles //Dejar SIEMPRE al hasta el final -->
+        <link rel=\"stylesheet\" href=\"css/app.min.css\">
     </head>
 
     <body data-sa-theme=\"1\">

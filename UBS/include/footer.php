@@ -72,18 +72,11 @@ echo '
         <script src="demo/js/flot-charts/pie.js"></script>   
 
         <!-- Subir un archivo -->
-
-        <script src="vendors/bower_components/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
-        <script src="vendors/bower_components/select2/dist/js/select2.full.min.js"></script>
-        <script src="vendors/bower_components/dropzone/dist/min/dropzone.min.js"></script>
-        <script src="vendors/bower_components/moment/min/moment.min.js"></script>
+        <script src="vendors/bower_components/dropzone/dist/min/dropzone.min.js"></script>      
         <script src="vendors/bower_components/flatpickr/dist/flatpickr.min.js"></script>
-        <script src="vendors/bower_components/nouislider/distribute/nouislider.min.js"></script>
-        <script src="vendors/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
-        <script src="vendors/bower_components/trumbowyg/dist/trumbowyg.min.js"></script>
 
         <!-- App functions and actions -->
-        <script src="js/app.min.js"></script>    
+        <script src="js/app.min.js"></script>
 
     </body>
 </html>
