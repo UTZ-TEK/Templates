@@ -6,7 +6,7 @@ echo '
     <section class="content">
 
         <!--Esta CABECERA neceito que sea estatica como el header y va a tener que salir de la base de datos-->
-        <div class="card">
+        <div class="card sticky-ubs">
             <header class="content__title">
                 <div class="row" style="padding-top: 10px">
                     <div class="col-sm-8 col-md-8">

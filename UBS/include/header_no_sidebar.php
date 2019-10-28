@@ -26,6 +26,17 @@ echo "
         
         <!-- App styles -->
         <link rel=\"stylesheet\" href=\"css/app.min.css\">
+
+        <!-- Para el for Front desk 
+        <link rel=\"stylesheet\" href=\"vendors/bower_components/select2/dist/css/select2.min.css\">
+        <link rel=\"stylesheet\" href=\"vendors/bower_components/dropzone/dist/dropzone.css\">
+        <link rel=\"stylesheet\" href=\"vendors/bower_components/flatpickr/dist/flatpickr.min.css\" />
+        <link rel=\"stylesheet\" href=\"vendors/bower_components/nouislider/distribute/nouislider.min.css\">
+        <link rel=\"stylesheet\" href=\"vendors/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.css\">
+        <link rel=\"stylesheet\" href=\"vendors/bower_components/trumbowyg/dist/ui/trumbowyg.min.css\">
+        <link rel=\"stylesheet\" href=\"demo/css/demo.css\">
+        -->
+
     </head>
 
     <body data-sa-theme=\"1\">
@@ -38,7 +49,8 @@ echo "
                     </svg>
                 </div>
             </div>
-	 ";
+	 ";      
+
 /*************BARRA DE NAVEGACION DE ARRIBA***********/
 require 'upper_nav.php';
 /*************BARRA DE NAVEGACION DE ARRIBA***********/
