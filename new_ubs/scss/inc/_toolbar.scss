@@ -1,0 +1,87 @@
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    height: 4.5rem;
+    align-items: center;
+    padding: 0.05rem $card-spacer-x 0;
+    position: relative;
+    margin-bottom: $grid-gutter-width;
+  
+    &:not(.toolbar--inner) {
+      @include card();
+    }
+  
+    .actions {
+      margin: 0.05rem -0.8rem 0 auto;
+    }
+  }
+  
+  .toolbar--inner {
+    border-bottom: 1px solid $border-lightest;
+  }
+  
+  .toolbar__nav {
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-right: 1rem;
+  
+    & > a {
+      text-transform: uppercase;
+      font-weight: $font-weight-bold;
+      color: $text-muted;
+      display: inline-block;
+      @include transition(color 300ms);
+  
+      & + a {
+        padding-left: 1rem;
+      }
+  
+      &.active,
+      &:hover {
+        color: $body-color;
+      }
+    }
+  }
+  
+  .toolbar__search {
+    position: absolute;
+    left: 0;
+    top: 0;
+    @include size(100%, 100%);
+    border-radius: $border-radius;
+    padding-left: 3rem;
+    display: none;
+    background-color: $bg-highlighted-darkest;
+  
+    input[type=text] {
+      @include size(100%, 100%);
+      border: 0;
+      padding: 0 1.6rem;
+      font-size: 1.2rem;
+      background-color: transparent;
+      color: $input-color;
+      
+      @include placeholder() {
+        color: $input-placeholder-color;
+      }
+    }
+  }
+  
+  .toolbar__search__close {
+    @include transition(color 300ms);
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.8rem;
+    font-size: 1.5rem;
+    color: lighten($body-color, 15%);
+  
+    &:hover {
+      color: $body-color;
+    }
+  }
+  
+  .toolbar__label {
+    margin: 0;
+    font-size: 1.1rem;
+  }
