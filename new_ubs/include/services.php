@@ -10,6 +10,10 @@
 			case 'obtener_barra_izquierda':
 				obtener_barra_izquierda();
 				break;
+
+			case 'verificar':
+				get_verificar();
+				break;
 		}
 	}
 
@@ -76,6 +80,19 @@
 		}
 
 		$jsondata['menu'] = $menu;
+		echo json_encode($jsondata);
+	}
+
+	function get_verificar(){
+		global $conn;
+		$jsondata = array();
+		//Prueba
+		$n = 1;
+
+		
+
+
+		$jsondata['credencial'] = $n;
 		echo json_encode($jsondata);
 	}
 ?>
