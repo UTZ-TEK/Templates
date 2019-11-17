@@ -16,7 +16,7 @@ echo '
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="">View Profile</a>
                 <a class="dropdown-item" href="">Settings</a>
-                <a class="dropdown-item" href="">Logout</a>
+                <a class="dropdown-item" href="include/logout.php">Logout</a>
             </div>
         </div>
         <!-----------------------INFORMACION DEL USUARIO, TAMBIEN DEBEMOS DE OBTENERLA DE LA BASE DE DATOS--------------->

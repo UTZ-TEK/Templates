@@ -21,13 +21,13 @@ function verify_credentials() {
         }),
         dataType: "json",        
         success: function(r) {  
-        //alert(r.credencial);                                                     
-           /* Mostramos el main*/
+       // alert(r.credencial);                                                     
+           // Mostramos el main
             if(r.credencial == 1){
-            	alert('Ingreso!');
+            	//alert('Ingreso!');
             	
 
-               window.location.replace("main.php");
+               window.location.replace("dashboard.php");
             }else{
             	alert('No se puede accesar!!!');
             }
