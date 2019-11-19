@@ -1,0 +1,33 @@
+$theme-bgs: (
+  1: ('1.jpg', #772036),
+  2: ('2.jpg', #273C5B),
+  3: ('3.jpg', #174042),
+  4: ('4.jpg', #383844),
+  5: ('5.jpg', #49423F),
+  6: ('6.jpg', #5e3d22),
+  7: ('7.jpg', #234d6d),
+  8: ('8.jpg', #3b5e5e),
+  9: ('9.jpg', #0a4c3e),
+  10: ('10.jpg' #7b3d54)
+);
+
+[data-sa-theme] {
+  @include media-breakpoint-up(sm) {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
+
+@each $bg, $value in $theme-bgs {
+  $bgimg: nth($value, 1);
+  $bgcolor: nth($value, 2);
+
+  [data-sa-theme="#{$bg}"] {
+    background-color: $bgcolor;
+
+    @include media-breakpoint-up(sm) {
+      background-image: url('../img/bg/#{$bgimg}');
+    }
+  }
+}
