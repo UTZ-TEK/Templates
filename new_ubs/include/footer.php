@@ -41,6 +41,8 @@ echo '
         <script src="vendors/bower_components/peity/jquery.peity.min.js"></script>
         <script src="vendors/bower_components/moment/min/moment.min.js"></script>
         <script src="vendors/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+        <script src="vendors/bower_components/flot/jquery.flot.pie.js"></script>
+        <script src="vendors/bower_components/flot.orderbars/js/jquery.flot.orderBars.js"></script>
 
         <!-- Charts and maps-->
         <script src="demo/js/flot-charts/curved-line.js"></script>
@@ -49,10 +51,22 @@ echo '
         <script src="demo/js/flot-charts/chart-tooltips.js"></script>
         <script src="demo/js/other-charts.js"></script>
         <script src="demo/js/jqvmap.js"></script>
+        <script src="demo/js/flot-charts/bar.js"></script>
+         <script src="demo/js/flot-charts/pie.js"></script>
 
         <!-- App functions and actions -->
         <script src="js/app.min.js"></script>
         <script src="js/side_bar.js"></script>
+        <script src="js/logout.js"></script>
+
+        <!-- Vendors: Data tables -->
+        <script src="vendors/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+        <script src="vendors/bower_components/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+        <script src="vendors/bower_components/datatables.net-buttons/js/buttons.print.min.js"></script>
+        <script src="vendors/bower_components/jszip/dist/jszip.min.js"></script>
+        <script src="vendors/bower_components/datatables.net-buttons/js/buttons.html5.min.js"></script>
+
+       
     </body>
 </html>
 	 ';

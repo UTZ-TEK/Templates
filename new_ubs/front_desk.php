@@ -7,6 +7,7 @@ require 'include/header.php';
 
                     <div class="actions">
                     		<button class="btn btn-success btn--icon-text"><i class="zmdi zmdi-select-all"></i> Scan</button>
+                            <button class="btn btn-success btn--icon-text"><i class="zmdi zmdi-select-all"></i> New</button>
                             <!--<a href="" class="actions__item zmdi zmdi-trending-up"></a>
                             <a href="" class="actions__item zmdi zmdi-check-all"></a>
 
@@ -33,13 +34,8 @@ require 'include/header.php';
                                         <th>DATE</th>
                                         <th>UTZ ID</th>
                                         <th>CLIENT NAME</th>
-                                        <th>SERVICE UTZ</th>
-                                        <th>WEIGHT(kg)	</th>
-                                        <th>SALE PRICE($)</th>
-                                        <th>COUNTRY</th>
-                                        <th>SUPPLIER</th>
-                                        <th>ZONA</th>
-                                        <th>VIEW</th>
+                                        <th>STATUS</th>
+                                        <th>EDIT</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -47,39 +43,37 @@ require 'include/header.php';
                                         <td>25/aug/2019</td>
                                         <td>U-192030PL-3020</td>
                                         <td>STELA(9)($)</td>
-                                        <td>SAVER</td>
-                                        <td>10.0</td>
-                                        <td>$30.00</td>
-                                        <td>GERMANY</td>
-                                        <td>UPS</td>
-                                        <td>1</td>
+                                        <td>SHIP</td>
                                         <td><button class="btn btn-success btn--icon-text"><i class="zmdi zmdi-more-vert"></i> edit</button></td>
                                     </tr>
                                     <tr>
                                         <td>25/aug/2019</td>
                                         <td>U-192030PL-3020</td>
                                         <td>STELA(9)($)</td>
-                                        <td>EXPEDITED</td>
-                                        <td>20.0</td>
-                                        <td>$70.00</td>
-                                        <td>CANADA</td>
-                                        <td>UPS</td>
-                                        <td>3</td>
+                                        <td>SHIP</td>
                                         <td><button class="btn btn-success btn--icon-text"><i class="zmdi zmdi-more-vert"></i> edit</button></td>
                                     </tr>
                                     <tr>
                                         <td>25/aug/2019</td>
                                         <td>U-192030PL-3020</td>
                                         <td>STELA(9)($)</td>
-                                        <td>WORLD EASY</td>
-                                        <td>1.0</td>
-                                        <td>$20.00</td>
-                                        <td>USA</td>
-                                        <td>UPS</td>
-                                        <td>1</td>
+                                        <td>SHIP</td>
                                         <td><button class="btn btn-success btn--icon-text"><i class="zmdi zmdi-more-vert"></i> edit</button></td>
                                     </tr>
-                                    
+                                    <tr>
+                                        <td>25/aug/2019</td>
+                                        <td>U-192030PL-3020</td>
+                                        <td>STELA(9)($)</td>
+                                        <td>SHIP</td>
+                                        <td><button class="btn btn-success btn--icon-text"><i class="zmdi zmdi-more-vert"></i> edit</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>25/aug/2019</td>
+                                        <td>U-192030PL-3020</td>
+                                        <td>STELA(9)($)</td>
+                                        <td>SHIP</td>
+                                        <td><button class="btn btn-success btn--icon-text"><i class="zmdi zmdi-more-vert"></i> edit</button></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
