@@ -4,17 +4,10 @@ echo '
 				<!---------ESTE FOOTER TAMBIEN DEBE DE SALIR DE LA DB--------------->
 				<footer class="footer hidden-xs-down">
                     <p>© UTZ System v1.0</p>
+                    <h7>Powered by <a class="" href="http://utztek.com/">UTZ TEK</a></h7>
 
                     <ul class="nav footer__nav">
-                        <a class="nav-link" href="">Homepage</a>
-
-                        <a class="nav-link" href="">Company</a>
-
-                        <a class="nav-link" href="">Support</a>
-
-                        <a class="nav-link" href="">News</a>
-
-                        <a class="nav-link" href="">Contacts</a>
+                        <!--<a class="nav-link" href="https://www.utzmeansgood.com/">Homepage</a>-->
                     </ul>
                 </footer>
                 <!---------ESTE FOOTER TAMBIEN DEBE DE SALIR DE LA DB--------------->
@@ -52,7 +45,8 @@ echo '
 
         <!-- App functions and actions -->
         <script src="js/app.min.js"></script>
-        <script src="js/side_bar.js"></script>
+        <!-----------COMENTADO PUESTO QUE EN ESTA PAGINA NO SERA NECESARIO EL SIDEBAR---->
+        <!--<script src="js/side_bar.js"></script>-->
     </body>
 </html>
 	 ';

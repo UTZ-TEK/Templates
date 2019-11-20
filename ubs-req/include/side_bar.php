@@ -1,7 +1,7 @@
 <?php
 
 echo '
-<aside class="sidebar">
+<aside class="sidebar sidebar--hidden">
     <div class="scrollbar-inner">
     	<!-----------------------INFORMACION DEL USUARIO, TAMBIEN DEBEMOS DE OBTENERLA DE LA BASE DE DATOS--------------->
         <div class="user">

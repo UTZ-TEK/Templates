@@ -18,7 +18,7 @@ echo "
         <link rel=\"stylesheet\" href=\"css/app.min.css\">
     </head>
 
-    <body data-sa-theme=\"1\">
+    <body data-sa-theme=\"6\">
 
     	<main class=\"main\">
             <div class=\"page-loader\">
