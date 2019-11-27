@@ -5,10 +5,11 @@ echo '
 				<footer class="footer hidden-xs-down">
                     <p>© UTZ System v1.0</p>
                     <h7>Powered by <a class="" href="http://utztek.com/">UTZ TEK</a></h7>
-
+                    <div class="animated zoomIn infinite">
                     <ul class="nav footer__nav">
                         <!--<a class="nav-link" href="https://www.utzmeansgood.com/">Homepage</a>-->
                     </ul>
+                    </div>
                 </footer>
                 <!---------ESTE FOOTER TAMBIEN DEBE DE SALIR DE LA DB--------------->
                 
