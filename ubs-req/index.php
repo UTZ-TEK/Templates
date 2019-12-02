@@ -13,11 +13,56 @@ require 'include/header.php';
 <!----------------------------LADO iZQUIERDO------------------------- -->
         	<div class="col-lg-6 card">
         		<h2 class="text-center">Cotizar</h2>
-        		
-        		<div class="form-group">
-				    <input type="text" class="form-control" placeholder="Dimensiones" id="dimensiones">
-				    <i class="form-group__bar"></i>
-				</div>
+        		<div class="row">
+        		  <div class="col">
+				    <div class="form-group">
+				        <input type="text" class="form-control" placeholder="Ancho" id="ancho">
+				        <i class="form-group__bar"></i>
+				    </div>
+				  </div>
+				  <div class="col">
+				    <div class="form-group">
+						<div class="select">
+					        <select class="form-control" id="ancho_medida">
+					            <option>cm</option>
+					            <option>mt</option>
+					        </select>
+					    </div>				    
+					</div>
+				  </div>
+				  <div class="col">
+				    <div class="form-group">
+				        <input type="text" class="form-control" placeholder="Largo" id="largo">
+				        <i class="form-group__bar"></i>
+				    </div>
+				  </div>
+				  <div class="col">
+				    <div class="form-group">
+						<div class="select">
+					        <select class="form-control" id="largo_medida">
+					            <option>cm</option>
+					            <option>mt</option>
+					        </select>
+					    </div>				    
+					</div>
+				  </div>
+				  <div class="col">
+				    <div class="form-group">
+				        <input type="text" class="form-control" placeholder="Alto" id="alto">
+				        <i class="form-group__bar"></i>
+				    </div>
+				  </div>
+				  <div class="col">
+				    <div class="form-group">
+						<div class="select">
+					        <select class="form-control" id="alto_medida">
+					            <option>cm</option>
+					            <option>mt</option>
+					        </select>
+					    </div>				    
+					</div>
+				  </div>
+        		</div>
 				<div class="form-group">
 				    <input type="text" class="form-control" placeholder="Peso" id="peso">
 				    <i class="form-group__bar"></i>

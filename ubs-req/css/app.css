@@ -10609,6 +10609,15 @@ textarea {
   }
 }
 
+[data-sa-theme="11"] {
+  background-color: #C9C9C9;
+}
+@media (min-width: 576px) {
+  [data-sa-theme="11"] {
+    background-image: url("../img/bg/11.jpg");
+  }
+}
+
 .ie-warning {
   position: fixed;
   top: 0;
