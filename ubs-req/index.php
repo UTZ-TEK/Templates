@@ -25,7 +25,7 @@ require 'include/header.php';
 						<div class="select">
 					        <select class="form-control" id="ancho_medida">
 					            <option>cm</option>
-					            <option>mt</option>
+					            <option>inch</option>
 					        </select>
 					    </div>				    
 					</div>
@@ -41,7 +41,7 @@ require 'include/header.php';
 						<div class="select">
 					        <select class="form-control" id="largo_medida">
 					            <option>cm</option>
-					            <option>mt</option>
+					            <option>inch</option>
 					        </select>
 					    </div>				    
 					</div>
@@ -57,7 +57,7 @@ require 'include/header.php';
 						<div class="select">
 					        <select class="form-control" id="alto_medida">
 					            <option>cm</option>
-					            <option>mt</option>
+					            <option>inch</option>
 					        </select>
 					    </div>				    
 					</div>
